@@ -1,4 +1,4 @@
-## i)	Disciplinas:
+## Disciplinas:
 |MATÉRIA |	DOCENTE |
 | ------ | ------ |
 |ESTATÍSTICA DESCRITIVA|	Prof. NANCI DE OLIVEIRA|
@@ -8,7 +8,7 @@
 |LABORATÓRIO DE DESENVOLVIMENTO DE BANCO DE DADOS|	Prof. GIULIANO BERTOTTI|
 |LINGUAGEM DE PROGRAMAÇÃO II|	Prof. LUCAS GONÇALVES NADALETE|
 |PROGRAMAÇÃO DE BANCO DE DADOS|	Prof. JULIANA FORIN PASQUINI MARTINEZ|
-##  ii)	Integrantes:
+##  Integrantes:
 •	Caroline Paz de Sousa
 RA:1460281923049
 <https://www.linkedin.com/in/caroline-sousa-53a27972/>
@@ -31,7 +31,7 @@ RA:1460281923027
 RA: 1460281923041
 <https://www.linkedin.com/in/wilson-amore-vieira-filho-7a4420183/>
 
-## I - Introdução:
+## 1 - Introdução:
 O presente documento visa apresentar a solução tecnológica proposta pela equipe para apresentar uma aplicação que gere valor aos usuários do Cadastro Positivo [C.P.], clientes da empresa SPC BRASIL.
 
 Utilizando a base de dados do Cadastro Positivo (Lei nº 12.414/2011 c/c LC nº 166/2019), a aplicação gerará valor pelo fato de:
@@ -51,8 +51,8 @@ Aqui, serão identificados e classificados o objeto, “story cards”, requisit
 A aplicação consiste num ambiente onde o usuário possa ter acesso aos seus dados do C.P., porém, por meio de algum atrativo adicional.
 
 A Interface Gráfica/VIEW propiciará a interação do usuário com a aplicação.
-## II - Elicitação, Story Cards e Identificação de Requisitos
-## II.I - Declaração do Problema.
+## 2 - Elicitação, Story Cards e Identificação de Requisitos
+## 2.1 - Declaração do Problema.
 Nossa cliente fornece dados cruciais à existência da própria Economia, vez que servem para a concessão ou negação de crédito. 
 
 A partir de uma base de dados denominada Cadastro Positivo, seus usuários podem saber como estão posicionados no mercado de crédito, seja requerer crédito ou, qual o risco de conceder-se crédito a quem lhes peça.
@@ -67,7 +67,7 @@ Por fim, note-se que há uma massa de pessoas que raramente constava na base de 
 Logo, a aplicação deverá trabalhar tais dados e gerar informação que, por sua vez, há de transformar-se em conhecimento, aplicável no cotidiano dos usuários.
 
 Nossa cliente declarou que a mera apresentação de dados na tela da aplicação não será considerada geração de valor; pode-se utilizar outras fontes públicas de dados; o primeiro passo é problematizar para sugerir soluções.
-## II.II - Questões da Equipe.
+## 2.2 - Questões da Equipe.
 Diante deste cenário, são perguntas plausíveis:
 - a)	O usuário que paga contas e parcelas maiores e é negativado por contas menores, merece reclassificação?
 - b)	O chamado “bom pagador” que está num mal momento econômico, com estabilidade financeira, não mereceria uma classificação melhor do que aquele que já perdeu os meios de recuperar-se?
@@ -77,53 +77,53 @@ Diante deste cenário, são perguntas plausíveis:
 - f)	Quais ferramentas de Ciência de Dados, Aprendizado de Máquina ou Inteligência Artificial podem transformar os dados em informação relevante?
 - g)	Quais dados/débitos são considerados para o cálculo do “Score”, investigação de CPF e Prevenção de Fraudes?
 h)	É possível automatizar consultar do CPF do indivíduo em bancos de dados tais quais CAGED, INSS e outros órgãos ou entes?
-## II.III - Brainstorming.
+## 2.3 - Brainstorming.
 O que pode ser utilizado?
 - Dados primitivos: Nome, CPF, Endereço, local de consumo (georreferenciado e endereço), data, hora, valor, nome e ramo de negócio do estabelecimento.
 - Dados históricos: Somente pagamentos de parcelas de crédito já concedido; Não há histórico e frequência de consumo, horários e locais mais frequentes, tipos de consumo, quebra por categoria/período/local/valor, consumo mensal; renda presumida (somatória do quanto gasta e de quanto investe);
 - Dados externos: Ainda não foram encontradas fontes de dados externos confiáveis para somar ao C.P. Descartou-se fontes oficiais pela dificuldade de segurança dos dados individualizados (CAGED, INSS e outros órgãos ou entes públicos: pensionista, aposentado, (des)empregado?).
 O que pode ser apresentado?
-##### a)	Nova quebra de faixas de risco para o crédito (em oposição à classificação binária):
-- i.	bom pagador sem negativações c/c consumo e renda altas;
-- ii.	bom pagador de grandes débitos com pequenas moras;
-- iii.	bom pagador por faixas de valores;
-- iv.	bom pagador com renda comprometida;
-- v.	bom pagador que está em má fase mas não perdeu sua fonte de renda;
-- vi.	desbancarizados que já consomem baseado em crédito informal / crediário próprio;
-- vii.	mal pagador c/c fonte de renda insuficiente;
+##### 2.3.1	Nova quebra de faixas de risco para o crédito (em oposição à classificação binária):
+- a)	bom pagador sem negativações c/c consumo e renda altas;
+- b)	bom pagador de grandes débitos com pequenas moras;
+- c)	bom pagador por faixas de valores;
+- d)	bom pagador com renda comprometida;
+- e)	bom pagador que está em má fase mas não perdeu sua fonte de renda;
+- f)	desbancarizados que já consomem baseado em crédito informal / crediário próprio;
+- g)	mal pagador c/c fonte de renda insuficiente;
 
-#####  b)	Serviços que podem ser oferecidos aos desbancarizados:
-- i.	Onde podem comprar parcelado / microcrédito (ato voluntário do comércio ou fintech dedicada – mercado: 20 milhões de pessoas)?
-- ii.	Análise de risco para microcrédito;
-- iii.	Microcrédito/milhagens/pontos como impulso inicial no histórico de crédito;
+#####  2.3.2	Serviços que podem ser oferecidos aos desbancarizados:
+- a)	Onde podem comprar parcelado / microcrédito (ato voluntário do comércio ou fintech dedicada – mercado: 20 milhões de pessoas)?
+- b)	Análise de risco para microcrédito;
+- c)	Microcrédito/milhagens/pontos como impulso inicial no histórico de crédito;
 
-#####  c)	Gamificação (opções):
-- i.	Classificação do usuário por:
-- i.i níveis de Score;
-- i.ii. progressão de fases com simulações de meta/objetivos;
-- i.iii. pontos;
-- i.iv. colocação do usuário num determinado grupo (Os 20 melhores);
-- i.v. Menu “Helper” ou Assistente com dicas para melhorar sua classificação;
-- i.vi. Utilizar o Score para transformá-lo e mostrar progressão no gráfico;
-- i.vii. Linha do tempo x gastos;
-- i.viii. “Indique um amigo e ganhe (...)”;
+#####  2.3.3	Gamificação (opções):
+- ###### Classificação do usuário por:
+- b) níveis de Score;
+- c) progressão de fases com simulações de meta/objetivos;
+- d) pontos;
+- e) colocação do usuário num determinado grupo (Os 20 melhores);
+- f) Menu “Helper” ou Assistente com dicas para melhorar sua classificação;
+- g) Utilizar o Score para transformá-lo e mostrar progressão no gráfico;
+- h) Linha do tempo x gastos;
+- i) “Indique um amigo e ganhe (...)”;
 
-- ii.	Classificação dos gastos:
-- ii.i. Espécies de parcelas pagas pelo usuário.
-- ii.ii. Espécies de gastos cadastrados pelo usuário.
+- ###### Classificação dos gastos:
+- a) Espécies de parcelas pagas pelo usuário.
+- b) Espécies de gastos cadastrados pelo usuário.
 
-- iii.	Informações Básicas: 
-- iii.i. Para que serve o Score e outras funções educativas
-- iii.ii. “Quando vou me livrar das parcelas”?
-- iii.iii. “Como faço para pagar mais rápido e liberar meu orçamento”?
+- ###### Informações Básicas: 
+- a) Para que serve o Score e outras funções educativas
+- b) “Quando vou me livrar das parcelas”?
+- c) “Como faço para pagar mais rápido e liberar meu orçamento”?
 
-##### d)	Momento da Negociação: Acompanhamento da flutuação do Score com sugestão do momento para oferecer acordo e evitar a judicialização (bilateral);
+##### 2.3.4	Momento da Negociação: Acompanhamento da flutuação do Score com sugestão do momento para oferecer acordo e evitar a judicialização (bilateral);
 
 O que não pode ser apresentado?
 - a)	Itinerário do Consumo: Gráfico de “onde eu consumo ao longo do dia ou do mês” para requerentes e “qual o fluxo de consumidores em determinado local” para concedentes;
 - b)	Informação sobre despesas não cadastradas;
 - c)	Sugestão de consumo em novos estabelecimentos;
-# II.IV - Story Cards:
+# 2.4 - Story Cards:
 - Clicar num botão, dentro do ambiente já disponível da cliente Senão: Login (usuário e senha);
 - Abrir DASHBOARD;
 - Ver meu próprio Score (calculado pela aplicação), minha classificação; dicas para melhorar e ofertas (opções gamificadas);
@@ -149,7 +149,7 @@ O que não pode ser apresentado?
     -   Top 10 dos itens de maior gastos por categoria (alimentação, vestuário, educação, transporte, telefonia etc).
     -   Grafico de Pizza com o consumo;
     -   Sistema de pontos
-# II.V - Especificação de Requisitos (em ordem de prioridade    ):
+# 2.5 - Especificação de Requisitos (em ordem de prioridade    ):
 Funcionais:
 |NOME 	| Cod| 	Descrição |
 | ------ | ------ | ------ |
@@ -161,7 +161,7 @@ Funcionais:
 |Gerar Relatórios|	R6	|Substituídos por painel de informações e “pílulas de conhecimento”|
 |Importação de arquivo|R7 |		Minhas despesas/vendas ou crediário próprio|
 
-## III - DIAGRAMA DE CASO DE USO
+## 3 - DIAGRAMA DE CASO DE USO
 [![]( https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/DIAGRAMA-CASPS-DE-USO.jpg)](2020.2-SPC-CAD-POSITIVO/DIAGRAMA-CASPS-DE-USO.jpg)
  
 Não funcionais:
@@ -174,7 +174,7 @@ Não funcionais:
 - Execução no próprio dispositivo;
 - multiplataforma;
 
-## IV - Proposta da Solução (Como deve ficar a aplicação)
+## 4 - Proposta da Solução (Como deve ficar a aplicação)
 A tela de entrada apresentaria um DASHBOARD com 4 quadrantes e um círculo ao meio.
 O círculo apresenta o Score naquele momento.
 Os quadrantes seguiriam a seguinte sugestão: 
@@ -197,10 +197,10 @@ A monetização pode vir de diversas fontes, a saber:
 •	a rede de concedentes podem oferecer vantagens para trocar os pontos; 
 •	novos produtos a partir de dados cadastrados pelos usuários;
 •	fintechs: oferta de microcrédito direto pelo meio de pagamento, sem banco, aos desbancarizados;
-## IV.I - Visão:
+## 4.1 - Visão:
 Entregar uma aplicação inovadora, lucrativa, socialmente responsável, amigável ao meio ambiente e de governança transparente dentro dos limites de um produto minimamente viável (M.V.P.).
 Usabilidade:
-## V - HEURISTICAS
+## 5 - HEURISTICAS
 **•	Correspondência entre o sistema e o mundo real.**
 
 O sistema possuirá uma interface intuitiva com menus e botões de ações de fácil entendimento, utilizando nomenclatura familiar aos seus usuários. 
@@ -231,14 +231,14 @@ As cores da plataforma e a interface amigável reduzirão as dúvidas. Questões
 
 Residualmente, pode ser utilizado o benchmarking de novos menus de ajuda de fintechs e outras ferramentas.
 
-## VI - Tecnologias e Metodologias aplicadas
+## 6 - Tecnologias e Metodologias aplicadas
 - Linguagem de programação Java;
 - Linguagem de programação Java Script;
 - Banco de Dados Oracle;
 - Compatível nas plataformas Windows, Linux e Mac OS, pelos diversos browsers e sua compatibilidade com as linguagens e fabricantes acima.
 - Método Scrum;
 
-## VII - Cronograma e Backlog do Projeto (Em Ordem de Prioridade).
+## 7 - Cronograma e Backlog do Projeto (Em Ordem de Prioridade).
 Abaixo apresenta-se o cronograma de entregas seguindo a metodologia de Engenharia de Software (camadas visual, controle e modelo com banco de dados).
 As entregas futuras são o backlog do projeto (compilação de tarefas aprovadas, necessárias à conclusão do projeto);
 
