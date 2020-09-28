@@ -41,10 +41,10 @@ a)	Criar fidelização: conseguir manter seus usuários em sua plataforma, haja 
 b)	Ser “monetizável”;
 
 c)	Aproveitar as características dos dados, agrupados em:
-- i.	geolocalização;
-- ii.	“Score” de Crédito;
-- iii.	Investigação de CPF;
-- iv.	Controle de Fraudes
+- I.	geolocalização;
+- II.	“Score” de Crédito;
+- III.	Investigação de CPF;
+- IV.	Controle de Fraudes
 
 Aqui, serão identificados e classificados o objeto, “story cards”, requisitos, proposta da solução, destacando a usabilidade e mantendo backlog.
 
@@ -76,7 +76,7 @@ Diante deste cenário, são perguntas plausíveis:
 - e)	Quais recortes estatísticos agregam valor aos usuários?
 - f)	Quais ferramentas de Ciência de Dados, Aprendizado de Máquina ou Inteligência Artificial podem transformar os dados em informação relevante?
 - g)	Quais dados/débitos são considerados para o cálculo do “Score”, investigação de CPF e Prevenção de Fraudes?
-h)	É possível automatizar consultar do CPF do indivíduo em bancos de dados tais quais CAGED, INSS e outros órgãos ou entes?
+- h)	É possível automatizar consultar do CPF do indivíduo em bancos de dados tais quais CAGED, INSS e outros órgãos ou entes?
 ## 2.3 - Brainstorming.
 O que pode ser utilizado?
 - Dados primitivos: Nome, CPF, Endereço, local de consumo (georreferenciado e endereço), data, hora, valor, nome e ramo de negócio do estabelecimento.
@@ -98,7 +98,7 @@ O que pode ser apresentado?
 - c)	Microcrédito/milhagens/pontos como impulso inicial no histórico de crédito;
 
 #####  2.3.3	Gamificação (opções):
-- ###### Classificação do usuário por:
+###### Classificação do usuário por:
 - b) níveis de Score;
 - c) progressão de fases com simulações de meta/objetivos;
 - d) pontos;
@@ -108,11 +108,11 @@ O que pode ser apresentado?
 - h) Linha do tempo x gastos;
 - i) “Indique um amigo e ganhe (...)”;
 
-- ###### Classificação dos gastos:
+###### Classificação dos gastos:
 - a) Espécies de parcelas pagas pelo usuário.
 - b) Espécies de gastos cadastrados pelo usuário.
 
-- ###### Informações Básicas: 
+###### Informações Básicas: 
 - a) Para que serve o Score e outras funções educativas
 - b) “Quando vou me livrar das parcelas”?
 - c) “Como faço para pagar mais rápido e liberar meu orçamento”?
@@ -161,7 +161,7 @@ Funcionais:
 |Gerar Relatórios|	R6	|Substituídos por painel de informações e “pílulas de conhecimento”|
 |Importação de arquivo|R7 |		Minhas despesas/vendas ou crediário próprio|
 
-## 3 - DIAGRAMA DE CASO DE USO
+## 3 - Diagrama de Casos de Uso
 [![]( https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/DIAGRAMA-CASPS-DE-USO.jpg)](2020.2-SPC-CAD-POSITIVO/DIAGRAMA-CASPS-DE-USO.jpg)
  
 Não funcionais:
@@ -197,10 +197,12 @@ A monetização pode vir de diversas fontes, a saber:
 •	a rede de concedentes podem oferecer vantagens para trocar os pontos; 
 •	novos produtos a partir de dados cadastrados pelos usuários;
 •	fintechs: oferta de microcrédito direto pelo meio de pagamento, sem banco, aos desbancarizados;
+
 ## 4.1 - Visão:
 Entregar uma aplicação inovadora, lucrativa, socialmente responsável, amigável ao meio ambiente e de governança transparente dentro dos limites de um produto minimamente viável (M.V.P.).
 Usabilidade:
-## 5 - HEURISTICAS
+
+## 5 - Heuristicas
 **•	Correspondência entre o sistema e o mundo real.**
 
 O sistema possuirá uma interface intuitiva com menus e botões de ações de fácil entendimento, utilizando nomenclatura familiar aos seus usuários. 
@@ -244,27 +246,27 @@ As entregas futuras são o backlog do projeto (compilação de tarefas aprovadas
 
 Nessa linha, podem sofrer alterações em razão de adiantamento ou atraso devido a adaptações do desenvolvimento à realidade, aprovação do cliente e dificuldades encontradas.
 
-## Sprint 00 (27 de setembro de 2020).
+### Sprint 00 (27 de setembro de 2020).
 - Plano de Negócios com repositório de dados e documentação do projeto.
 - Repositório de dados Github: <https://github.com/aerosdan/Valcode>"
  
-## Sprint 01 (17 de outubro de 2020).
+### Sprint 01 (17 de outubro de 2020).
 - VIEW: Login, cadastrar usuário, Dashboard;
 - CONTROLE: Cálculo de Score;
 - CONTROLE: Conceder, estender ou revogar acesso aos meus dados
-## Sprint 02 (08 de novembro de 2020).
+### Sprint 02 (08 de novembro de 2020).
 - VIEW: Cadastro de Transações e adaptações;
 - CONTROLE: Cálculo de Score;
 - MODEL: registra dados de login e de interações/transações no banco de dados;
 - BANCO DE DADOS: Modelagem para os itens acima;
-## Sprint 03 (29 de novembro de 2020).
+### Sprint 03 (29 de novembro de 2020).
 - VIEW: Apresenta informações e “pílulas”, importa dados de transações, adaptações acima;
 - CONTROLE: Realiza cálculos e devolve informação para VIEW;
 - MODEL: Busca dados para apresentação na VIEW, insere dados importados no banco;
 - BANCO DE DADOS: Modelagem para os itens acima;
-## Apresentação Final e Avaliação de Soft Skills (06 de dezembro de 2020).
+### Apresentação Final e Avaliação de Soft Skills (06 de dezembro de 2020).
 - VIEW: correções finais;
 - CONTROLE: correções finais;
 - MODEL: correções finais;
 - BANCO DE DADOS: correções finais;
-## Feira de Soluções (13 de dezembro de 2020).
+### Feira de Soluções (13 de dezembro de 2020).
