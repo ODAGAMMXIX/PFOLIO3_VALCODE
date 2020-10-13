@@ -99,14 +99,14 @@ O que pode ser apresentado?
 
 #####  2.3.3	Gamificação (opções):
 ###### Classificação do usuário por:
-- b) níveis de Score;
-- c) progressão de fases com simulações de meta/objetivos;
-- d) pontos;
-- e) colocação do usuário num determinado grupo (Os 20 melhores);
-- f) Menu “Helper” ou Assistente com dicas para melhorar sua classificação;
-- g) Utilizar o Score para transformá-lo e mostrar progressão no gráfico;
-- h) Linha do tempo x gastos;
-- i) “Indique um amigo e ganhe (...)”;
+- a) níveis de Score;
+- b) progressão de fases com simulações de meta/objetivos;
+- c) pontos;
+- d) colocação do usuário num determinado grupo (Os 20 melhores);
+- e) Menu “Helper” ou Assistente com dicas para melhorar sua classificação;
+- f) Utilizar o Score para transformá-lo e mostrar progressão no gráfico;
+- g) Linha do tempo x gastos;
+- h) “Indique um amigo e ganhe (...)”;
 
 ###### Classificação dos gastos:
 - a) Espécies de parcelas pagas pelo usuário.
