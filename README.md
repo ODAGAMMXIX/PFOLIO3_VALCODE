@@ -269,7 +269,7 @@ Nessa linha, podem sofrer alterações em razão de adiantamento ou atraso devid
 ## Sprint 01 (17 de outubro de 2020).
 - VIEW: Login, cadastrar usuário, Dashboard v.1;
 - CONTROLE: Cálculo de Score;
-- MODEL: registra de interações/transações no banco de dados;
+- MODEL: registro de interações/transações no banco de dados;
 - BANCO DE DADOS: imporatação do dataset em banco de dados Oracle;
 - BANCO DE DADOS: INÍCIO DDL;
 - BANCO DE DADOS: INÍCIO DML;
