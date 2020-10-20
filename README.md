@@ -4,10 +4,7 @@
 
 ## Apresentação do Sprint 01
 
-<div align="center">
-    <img src="./rsc/videos/Sprint01.mp4" width="720" />
-    <div height="4"></div>
-</div>
+https://youtu.be/lRlFIdKHmjo
 
 
 ## Disciplinas:
@@ -115,24 +112,24 @@ O que pode ser apresentado?
 - iv. Mútua avaliação: *v.g. BlaBlaCar, Uber, 99taxi etc.*
 
 #####  c)	Gamificação (opções):
-- i.	**Classificação do usuário** por:
-- 	níveis de Score;
-- 	progressão de fases com simulações de meta/objetivos;
-- 	pontos;
-- 	colocação do usuário num determinado grupo (Os 20 melhores);
-- 	Menu “Helper” ou Assistente com dicas para melhorar sua classificação;
-- 	Utilizar o Score para transformá-lo e mostrar progressão no gráfico;
-- 	Linha do tempo x gastos;
-- 	“Indique um amigo e ganhe (...)”;
+- i.	**Classificação do usuário** por:  
+ 	* Níveis de Score;  
+ 	* Progressão de fases com simulações de meta/objetivos;  
+ 	* Pontos;  
+ 	* Colocação do usuário num determinado grupo (Os 20 melhores);  
+ 	* Menu “Helper” ou Assistente com dicas para melhorar sua classificação;  
+ 	* Utilizar o Score para transformá-lo e mostrar progressão no gráfico;  
+	* Linha do tempo x gastos;  
+ 	* “Indique um amigo e ganhe (...)”;  
 
-- ii.	**Classificação dos gastos:**
-- 	Espécies de parcelas pagas pelo usuário.
-- 	Espécies de gastos cadastrados pelo usuário.
+- ii.	**Classificação dos gastos:**  
+ 	* Espécies de parcelas pagas pelo usuário.  
+	* Espécies de gastos cadastrados pelo usuário.  
 
-- iii.	**Informações Básicas:**
-- 	Para que serve o Score e outras funções educativas
-- 	“Quando vou me livrar das parcelas”?
-- 	“Como faço para pagar mais rápido e liberar meu orçamento”?
+- iii.	**Informações Básicas:**  
+ 	* Para que serve o Score e outras funções educativas  
+ 	* “Quando vou me livrar das parcelas”?  
+	* “Como faço para pagar mais rápido e liberar meu orçamento”?  
 
 ##### d)	Momento da Negociação
 Acompanhamento da **flutuação do Score** com sugestão do momento para oferecer acordo e prevenir conflito / evitar a judicialização (*machine learning*);
