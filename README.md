@@ -283,10 +283,9 @@ Nessa linha, podem sofrer alterações em razão de adiantamento ou atraso devid
 - MODEL: registro de interações/transações no banco de dados;
 - BANCO DE DADOS: imporatação do dataset em banco de dados Oracle;
 - BANCO DE DADOS: INÍCIO DDL;
-- BANCO DE DADOS: INÍCIO DML;
-# Burndown
+- BANCO DE DADOS: INÍCIO DML;  
 <div align="center">
-    <img src="./rsc/burndown/BURNDOWN_SPRINT01.jpg" width="320" />
+    <img src="./rsc/burndown/BURNDOWN_SPRINT01.jpg" width="720" />
     <div height="2"></div>
 </div>
 
