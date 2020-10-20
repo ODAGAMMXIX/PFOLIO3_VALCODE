@@ -284,6 +284,11 @@ Nessa linha, podem sofrer alterações em razão de adiantamento ou atraso devid
 - BANCO DE DADOS: imporatação do dataset em banco de dados Oracle;
 - BANCO DE DADOS: INÍCIO DDL;
 - BANCO DE DADOS: INÍCIO DML;
+# Burndown
+<div align="center">
+    <img src="./rsc/burndown/BURNDOWN_SPRINT01.jpg" width="320" />
+    <div height="2"></div>
+</div>
 
 ## Sprint 02 (08 de novembro de 2020).
 - VIEW: Cadastro de Transações e adaptações;
