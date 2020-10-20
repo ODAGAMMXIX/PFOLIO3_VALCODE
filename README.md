@@ -2,7 +2,7 @@
 [![](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/valcode-icon.jpg)](2020.2-SPC-CAD-POSITIVO/valcode-icon.jpg)
 
 
-## Apresentação do Sprint 01
+## Apresentação da Sprint 01
 
 https://youtu.be/lRlFIdKHmjo
 
