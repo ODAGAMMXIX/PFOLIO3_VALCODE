@@ -6,6 +6,7 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.math.BigInteger;
+import java.time.LocalDate;
 
 @Entity
 @Data
@@ -17,8 +18,9 @@ public class Pagamentos {
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "GEN_PAGAMENTOS")
     private Integer id;
 
-    @Column(name = "pagamentos_doc_cli")
-    private String doc_cli;
+    @ManyToOne
+    @JoinColumn(name = "pagamento_doc_cli", referencedColumnName = "PF_DOC_CLI")
+    private PessoaFisica doc_cli;
 
     @Column(name = "pagamentos_tip_cli", length = 1)
     private String tip_cli;
@@ -27,16 +29,17 @@ public class Pagamentos {
     private BigInteger num_unc;
 
     @Column(name = "pagamentos_dat_pgt")
-    private String dat_pgt;
+    private LocalDate dat_pgt;
 
     @Column(name = "pagamentos_dat_vct")
-    private String dat_vct;
+    private LocalDate dat_vct;
 
     @Column(name = "vlr_pgt")
     private Double vlr_pgt;
 
-    @Column(name = "pagamentos_cod_mdl")
-    private String cod_mdl;
+    @ManyToOne
+    @JoinColumn(name = "pagamento_cod_mdl", referencedColumnName = "MODALIDADE_COD_MODALIDADE")
+    private Modalidade cod_mdl;
 
 
 

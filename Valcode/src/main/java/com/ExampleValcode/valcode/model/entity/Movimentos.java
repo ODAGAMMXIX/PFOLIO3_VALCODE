@@ -6,6 +6,7 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.math.BigInteger;
+import java.time.LocalDate;
 
 @Setter
 @Getter
@@ -17,20 +18,22 @@ public class Movimentos {
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "GEN_MOVIMENTOS")
     private Integer id;
 
-    @Column(name = "movimento_doc_cli")
-    private String doc_cli;
+    @ManyToOne
+    @JoinColumn(name = "movimento_doc_cli", referencedColumnName = "PF_DOC_CLI")
+    private PessoaFisica doc_cli;
 
     @Column(name = "movimento_tip_cli", length = 1)
     private String tip_cli;
 
-    @Column(name = "movimento_id_fnt")
-    private Integer id_gnt;
+    @ManyToOne
+    @JoinColumn(name = "movimento_id_fonte", referencedColumnName = "id")
+    private Fonte id_fnt;
 
     @Column(name = "movimento_num_unc")
     private BigInteger num_unc;
 
     @Column(name = "movimento_dat_vct")
-    private String dat_vct;
+    private LocalDate dat_vct;
 
     @Column(name = "movimento_qtd_pcl_vnc")
     private Double qtd_pcl_vnc;

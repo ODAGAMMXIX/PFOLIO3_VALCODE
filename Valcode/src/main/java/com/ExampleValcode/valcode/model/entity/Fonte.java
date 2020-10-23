@@ -9,6 +9,7 @@ import javax.persistence.*;
 @Getter
 @Setter
 @Entity
+@Builder
 @Table(name = "FONTE")
 public class Fonte {
 
