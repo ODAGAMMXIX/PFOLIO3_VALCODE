@@ -1,6 +1,5 @@
 package com.ExampleValcode.valcode.helper;
 
-
 import com.ExampleValcode.valcode.model.entity.Fonte;
 import com.ExampleValcode.valcode.model.entity.Modalidade;
 import lombok.Data;
@@ -9,7 +8,6 @@ import lombok.Setter;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
-import org.springframework.web.multipart.MultipartFile;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -21,29 +19,29 @@ import java.util.List;
 @Data
 @Getter
 @Setter
-public class CsvFonteHelper {
-    public static String TYPE = "text/csv";
-    public final String[] HEADERs = {"id", "nom_comercial"};
-    public static List<Fonte> csvToFonte(InputStream is) {
+public class CsvModalidadeHelper {
 
+    public final String[] HEADERs = {"cod_modalidade", "des_modalidade"};
+
+    public static List<Modalidade> csvToFonte(InputStream is) {
         try (BufferedReader fileReader = new BufferedReader(new InputStreamReader(is, "UTF-8"));
              CSVParser csvParser = new CSVParser(fileReader,
                      CSVFormat.DEFAULT.withFirstRecordAsHeader().withIgnoreHeaderCase().withTrim());) {
 
-            List<Fonte> fontes = new ArrayList<Fonte>();
+            List<Modalidade> modalidades = new ArrayList<Modalidade>();
 
             Iterable<CSVRecord> csvRecords = csvParser.getRecords();
 
             for (CSVRecord csvRecord : csvRecords) {
-                Fonte fonte = new Fonte(
-                        Integer.parseInt(csvRecord.get("id")),
-                        csvRecord.get("nom_comercial")
+                Modalidade modalidade = new Modalidade(
+                        csvRecord.get("cod_modalidade"),
+                        csvRecord.get("des_modalidade")
                 );
 
-                fontes.add(fonte);
+                modalidades.add(modalidade);
             }
 
-            return fontes;
+            return modalidades;
         } catch (IOException e) {
             throw new RuntimeException("fail to parse CSV file: " + e.getMessage());
         }
