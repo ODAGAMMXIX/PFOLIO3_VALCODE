@@ -18,9 +18,9 @@ public class Pagamentos {
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "GEN_PAGAMENTOS")
     private Integer id;
 
-    @ManyToOne
-    @JoinColumn(name = "pagamento_doc_cli", referencedColumnName = "PF_DOC_CLI")
-    private PessoaFisica doc_cli;
+//    @ManyToOne
+//    @JoinColumn(name = "pagamento_doc_cli", referencedColumnName = "PF_DOC_CLI")
+    private String doc_cli;
 
     @Column(name = "pagamentos_tip_cli", length = 1)
     private String tip_cli;

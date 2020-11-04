@@ -1,22 +1,22 @@
 package com.ExampleValcode.valcode.model.entity;
 
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
+
 import javax.persistence.*;
 
 import javax.persistence.*;
 import java.math.BigInteger;
 
 @Entity
-@Data
 @Getter
 @Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @Table(name = "PESSOA_FISICA")
 public class PessoaFisica {
     @Id
     @Column(name = "PF_DOC_CLI")
-    private BigInteger doc_cli;
+    private String doc_cli;
 
     @Column(name = "PF_IDC_SEXO", length = 1)
     private String idc_sexo;
