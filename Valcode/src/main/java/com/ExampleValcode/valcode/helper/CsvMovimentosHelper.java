@@ -81,7 +81,7 @@ public class CsvMovimentosHelper {
                         csvRecord.get("doc_cli"),
                         csvRecord.get("tip_cli"),
                         csvRecord.get("id_fnt"),
-                        new BigInteger(csvRecord.get("num_unc")),
+                        csvRecord.get("num_unc"),
 
                         convertToDate(csvRecord.get("dat_vct")),
                         new BigInteger(checkIfNull(csvRecord.get("qtd_pcl_vnc"))),
@@ -111,22 +111,12 @@ public class CsvMovimentosHelper {
         }
         else{
             String[] splitValue = value.split("");
-//            if (Integer.parseInt(splitValue[0] + splitValue[1]) < 10){
-//                String day = "0"+splitValue[0];
-//                String month = splitValue[1] + splitValue[3];
-//                String year = splitValue[4] + splitValue[5] + splitValue[6] + splitValue[7];
-//                String dateToConvert = year + '-' + month + '-' + day;
-//                return LocalDate.parse(dateToConvert, formatter);
-//            }
-//            else{
+
                 String day = splitValue[0] + splitValue[1];
                 String month = splitValue[2] + splitValue[3];
                 String year = splitValue[4] + splitValue[5] + splitValue[6] + splitValue[7];
                 String dateToConvert = year + '-' + month + '-' + day;
                 return LocalDate.parse(dateToConvert, formatter);
-//            }
-
-
         }
     }
 

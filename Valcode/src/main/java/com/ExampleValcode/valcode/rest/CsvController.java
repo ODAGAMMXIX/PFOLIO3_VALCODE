@@ -1,11 +1,7 @@
 package com.ExampleValcode.valcode.rest;
 
-import com.ExampleValcode.valcode.helper.CsvFonteHelper;
 import com.ExampleValcode.valcode.message.ResponseMessage;
-import com.ExampleValcode.valcode.service.CsvFonteService;
-import com.ExampleValcode.valcode.service.CsvModalidadeService;
-import com.ExampleValcode.valcode.service.CsvMovimentosService;
-import com.ExampleValcode.valcode.service.CsvPessoaFisicaService;
+import com.ExampleValcode.valcode.service.*;
 import com.ExampleValcode.valcode.util.CsvUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -23,6 +19,7 @@ public class CsvController {
     private final CsvModalidadeService modalidadeService;
     private final CsvMovimentosService movimentosService;
     private final CsvPessoaFisicaService pessoaFisicaService;
+    private final CsvPagamentoService csvPagamentoService;
 
     @Autowired
     public CsvController(
@@ -30,13 +27,14 @@ public class CsvController {
             CsvModalidadeService modalidadeService,
             CsvMovimentosService movimentosService,
             CsvPessoaFisicaService pessoaFisicaService,
-            CsvUtils utils
-    ){
+            CsvUtils utils,
+            CsvPagamentoService csvPagamentoService){
         this.modalidadeService = modalidadeService;
         this.fileService = fileService;
         this.utils = utils;
         this.movimentosService = movimentosService;
         this.pessoaFisicaService = pessoaFisicaService;
+        this.csvPagamentoService = csvPagamentoService;
     }
 
 
@@ -61,6 +59,8 @@ public class CsvController {
                     case "pf":
                         pessoaFisicaService.save(file);
                         break;
+                    case "pagamento":
+                        csvPagamentoService.save(file);
 
                 }
 

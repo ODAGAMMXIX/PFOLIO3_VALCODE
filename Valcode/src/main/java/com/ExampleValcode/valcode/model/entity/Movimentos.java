@@ -32,7 +32,7 @@ public class Movimentos {
     private String id_fnt;
 
     @Column(name = "movimento_num_unc")
-    private BigInteger num_unc;
+    private String num_unc;
 
     @Column(name = "movimento_dat_vct")
     private LocalDate dat_vct;
@@ -58,7 +58,7 @@ public class Movimentos {
     @Column(name = "movimento_prd")
     private String prd;
 
-    public Movimentos(String doc_cli, String tip_cli, String id_fnt, BigInteger num_unc, LocalDate dat_vct, BigInteger qtd_pcl_vnc, BigDecimal qtd_pcl_pgr, BigDecimal vlr_tot_fat, BigDecimal vlr_min_fat, BigDecimal vlr_pcl, String tip_mvt, String prd) {
+    public Movimentos(String doc_cli, String tip_cli, String id_fnt, String num_unc, LocalDate dat_vct, BigInteger qtd_pcl_vnc, BigDecimal qtd_pcl_pgr, BigDecimal vlr_tot_fat, BigDecimal vlr_min_fat, BigDecimal vlr_pcl, String tip_mvt, String prd) {
         this.doc_cli = doc_cli;
         this.tip_cli = tip_cli;
         this.id_fnt = id_fnt;
