@@ -1,5 +1,6 @@
 package com.ExampleValcode.valcode.rest;
 
+import com.ExampleValcode.valcode.helper.CsvOperacoesHelper;
 import com.ExampleValcode.valcode.message.ResponseMessage;
 import com.ExampleValcode.valcode.service.*;
 import com.ExampleValcode.valcode.util.CsvUtils;
@@ -20,6 +21,7 @@ public class CsvController {
     private final CsvMovimentosService movimentosService;
     private final CsvPessoaFisicaService pessoaFisicaService;
     private final CsvPagamentoService csvPagamentoService;
+    private final CsvOperacoesService csvOperacoesService;
 
     @Autowired
     public CsvController(
@@ -28,15 +30,16 @@ public class CsvController {
             CsvMovimentosService movimentosService,
             CsvPessoaFisicaService pessoaFisicaService,
             CsvUtils utils,
-            CsvPagamentoService csvPagamentoService){
+            CsvPagamentoService csvPagamentoService,
+            CsvOperacoesService csvOperacoesService){
         this.modalidadeService = modalidadeService;
         this.fileService = fileService;
         this.utils = utils;
         this.movimentosService = movimentosService;
         this.pessoaFisicaService = pessoaFisicaService;
         this.csvPagamentoService = csvPagamentoService;
+        this.csvOperacoesService = csvOperacoesService;
     }
-
 
     @PostMapping("/upload/{proccess}")
     public ResponseEntity<ResponseMessage> uploadFile(
@@ -61,6 +64,10 @@ public class CsvController {
                         break;
                     case "pagamento":
                         csvPagamentoService.save(file);
+                        break;
+                    case "operacoes":
+                        csvOperacoesService.save(file);
+                        break;
 
                 }
 
