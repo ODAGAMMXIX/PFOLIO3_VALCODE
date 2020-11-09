@@ -1,5 +1,12 @@
 # PROJETO INTEGRADOR 2020.2 - FATEC & SPC BRASIL - CADASTRO POSITIVO.
 #### (ENTREGA 03 / SPRINT 02 - 08/nov/2020 - EQUIPE VALCODE)
+
+#### DIFERENCIAIS DA PLATAFORMA:
+- MONETIZAÇÃO: TODAS AS FUNÇÕES SÃO MONETIZÁVEIS;
+- GAMIFICAÇÃO POR TODO O AMBIENTE EM BUSCA DA FIDELIZAÇÃO;
+- EDUCAÇÃO FINANCEIRA: É CAPAZ DE AJUDAR O USUÁRIO A SUPERAR-SE E MELHORAR DE VIDA;
+- DESBACARIZADOS: TRAZ A REALIDADE DO COMÉRCIO JÁ EXISTENTE  PARA DENTRO DA PLATAFORMA;
+
 #### I - FRONT-END
 #### 1) Tela de Entrada - dashboard:
 ![TELA ENTRADA](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/TELA-00-ENTRADA-DASH.jpg?raw=true "Title")
@@ -44,7 +51,11 @@ Objetivo 03:  segurança ao próximo estabelecimento, para decidir se pode vende
 ## III - ALCANCE DA FERRAMENTA
 ![alcance](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/Alcance_escopo_valscore-1.0.jpg?raw=true"Casos-de-Uso")
 
+## IV - MODELO-RELACIONAL DO BANCO DE DADOS
+![Modelo-Relacional](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/MODELO-RELACIONAL-VALSCORE.jpg?raw=true"Casos-de-Uso")
 
+## V - DIAGRAMA DE CLASSES DO BANCO DE DADOS
+![Modelo-Relacional](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/DIAGRAMA-DE-CLASSES-VALSCORE.jpg?raw=true"Casos-de-Uso")
 
 ## VI - Tecnologias e Metodologias aplicadas
 - Linguagem de programação Java;
@@ -81,7 +92,7 @@ Nessa linha, podem sofrer alterações em razão de adiantamento ou atraso devid
 - VIEW: Tela de Educação Financeira e Auxílio ;
 - VIEW: Cadastro de Transações para Desbancarizados;
 - CONTROLE: 
-- MODEL: registra dados de login e de interações/transações no banco de dados;
+- MODEL: registra interações/transações no banco de dados;
 - BANCO DE DADOS: Modelagem para os itens acima;
 #### Sprint 03 (29 de novembro de 2020).
 - VIEW: Apresenta informações e “pílulas”, importa dados de transações, adaptações acima;
