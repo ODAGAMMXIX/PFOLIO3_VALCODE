@@ -34,13 +34,13 @@ public class PessoaFisicaController {
     }
 
     @GetMapping("{id}")
-    public PessoaFisica getById(@PathVariable("id") Integer id){
+    public PessoaFisica getById(@PathVariable("id") String id){
         return this.repository.findById(id).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND));
     }
 
     @PutMapping("{id}")
     @ResponseStatus(HttpStatus.ACCEPTED)
-    public PessoaFisica update(@RequestBody PessoaFisica pessoaAtualizada, @PathVariable("id") Integer id){
+    public PessoaFisica update(@RequestBody PessoaFisica pessoaAtualizada, @PathVariable("id") String id){
         return this.repository.findById(id).map(pessoaFisica -> {
             pessoaAtualizada.setDoc_cli(pessoaFisica.getDoc_cli());
             return this.repository.save(pessoaAtualizada);
@@ -49,7 +49,7 @@ public class PessoaFisicaController {
 
     @DeleteMapping("{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    public Class<Void> delete(@PathVariable("id") Integer id){
+    public Class<Void> delete(@PathVariable("id") String id){
         return this.repository.findById(id).map(pessoaFisica -> {
             this.repository.delete(pessoaFisica);
             return Void.TYPE;

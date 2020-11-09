@@ -1,6 +1,6 @@
 package com.ExampleValcode.valcode.rest;
 
-import com.ExampleValcode.valcode.model.entity.Modaliade;
+import com.ExampleValcode.valcode.model.entity.Modalidade;
 import com.ExampleValcode.valcode.model.repository.ModalidadeRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -19,12 +19,12 @@ public class ModalidadeController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public Modaliade save(@RequestBody Modaliade modalidade){
+    public Modalidade save(@RequestBody Modalidade modalidade){
         return this.repository.save(modalidade);
     }
 
     @GetMapping
-    public List<Modaliade> getAll(){
+    public List<Modalidade> getAll(){
         return this.repository.findAll();
     }
 }
