@@ -1,0 +1,47 @@
+<h1 class="mt-4">Transacoes</h1>
+<ol class="breadcrumb mb-4">
+     <li class="breadcrumb-item active">Consulta</li>
+</ol>
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+            <button class="btn btn-warning">
+                <i class= "fa fa-plus"></i>novo
+            </button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="class-col-md-12">
+            <table class="table table-condensed table-hover">
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>doc_cli</th>
+                        <th>tip_cli</th>
+                        <th>id_ftn</th>
+                        <th>num_unc</th>
+                        <th>dat_pgt</th>
+                        <th>dat_vct</th>
+                        <th>vlr_pgt</th>
+                        <th>cod_mdl</th>
+                        <th></th>
+                    </tr>
+                </thead>            
+                <tbody>
+                    <tr *ngFor="let transacao of transacoes">
+                        <td>{{ transacao.pagamentos_id }}</td>
+                        <td>{{ transacao.pagamentos_doc_cli }}</td>
+                        <td>{{ transacao.pagamentos_tip_cli }}</td>
+                        <td>{{ transacao.pagamentos_id_ftn }}</td>
+                        <td>{{ transacao.pagamentos_num_unc }}</td>
+                        <td>{{ transacao.pagamentos_dat_pgt }}</td>
+                        <td>{{ transacao.pagamentos_dat_vct }}</td>
+                        <td>{{ transacao.pagamentos_vlr_pgt }}</td>
+                        <td>{{ transacao.pagamentos_cod_mdl }}</td>  
+                        <td></td>                      
+                    </tr>                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
