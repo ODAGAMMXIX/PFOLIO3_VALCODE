@@ -1,11 +1,18 @@
-# PROJETO INTEGRADOR 2020.2 - FATEC & SPC BRASIL - CADASTRO POSITIVO.
-#### (ENTREGA 03 / SPRINT 02 - 08/nov/2020 - EQUIPE VALCODE)
+# PROJETO INTEGRADOR 2020.2 - FATEC & SPC BRASIL - CADASTRO POSITIVO
+ 
+#### VÍDEOS DAS ENTREGAS
+
+| Descrição | Vídeo                                       |
+|--------|---------------------------------------------|
+| Sprint 01      | https://www.youtube.com/watch?v=lRlFIdKHmjo |
+| Sprint 02      | https://www.youtube.com/watch?v=o_1Iov4ZG-o | 
+| BONUS Sprint 02 (Desbancarizados) | https://www.youtube.com/watch?v=dbQA__z_t1k||
 
 #### DIFERENCIAIS DA PLATAFORMA:
 - **MONETIZAÇÃO:** TODAS AS FUNÇÕES SÃO MONETIZÁVEIS;
 - **GAMIFICAÇÃO** POR TODO O AMBIENTE EM BUSCA DA FIDELIZAÇÃO;
 - **EDUCAÇÃO FINANCEIRA:** É CAPAZ DE AJUDAR O USUÁRIO A SUPERAR-SE E MELHORAR DE VIDA;
-- **DESBACARIZADOS:** TRAZ A REALIDADE DO COMÉRCIO JÁ EXISTENTE  PARA DENTRO DA PLATAFORMA;
+- **DESBANCARIZADOS:** TRAZ A REALIDADE DO COMÉRCIO JÁ EXISTENTE  PARA DENTRO DA PLATAFORMA;
 
 #### I - FRONT-END
 #### 1) Tela de Entrada - dashboard:
@@ -87,12 +94,12 @@ Nessa linha, podem sofrer alterações em razão de adiantamento ou atraso devid
 #### Sprint 01 (17 de outubro de 2020).
 - VIEW: Login, cadastrar usuário, Dashboard v.1;
 - CONTROLE: Cálculo de Score;
-- MODEL: registro de interações/transações no banco de dados;
+- MODEL: interações com banco de dados;
 - BANCO DE DADOS: imporatação do dataset em banco de dados Oracle;
 - BANCO DE DADOS: INÍCIO DDL;
 - BANCO DE DADOS: INÍCIO DML;
 
-## Sprint 02 (08 de novembro de 2020).
+#### Sprint 02 (08 de novembro de 2020).
 - **VIEW:** Tela de **permissões** de acesso a dados do usuário;
 - **VIEW:** Tela de sumário de **pontos e trocas** possíveis;
 - **VIEW:** Tela de **Educação Financeira** e Desafios;
@@ -100,18 +107,19 @@ Nessa linha, podem sofrer alterações em razão de adiantamento ou atraso devid
 - **CONTROLLER:** **Importação** de Arquivo CSV com **normalização de dados**;
 - **MODEL:** registra **transações** no banco de dados;
 - **BANCO DE DADOS:** Modelagem e Documentação;
+
 #### Sprint 03 (29 de novembro de 2020).
-- VIEW: Apresenta informações e “pílulas”, importa dados de transações, adaptações acima;
+- VIEW: Apresenta informações e “pílulas de conhecimento”, importa dados de transações, adaptações das VIEWs desenvolvidas na Sprint 02;
 - CONTROLE: Realiza cálculos e devolve informação para VIEW;
 - CONTROLE: Conceder, estender ou revogar acesso aos meus dados
 - MODEL: Busca dados para apresentação na VIEW, insere dados importados no banco;
 - MODEL: registra dados de login;
 - BANCO DE DADOS: Modelagem para os itens acima (novas tabelas);
 - BANCO DE DADOS: Modelagem DCL;
-## Apresentação Final e Avaliação de Soft Skills (06 de dezembro de 2020).
+
+#### Apresentação Final e Avaliação de Soft Skills (06 de dezembro de 2020).
 - VIEW: correções finais;
 - CONTROLE: correções finais;
 - MODEL: correções finais;
 - BANCO DE DADOS: correções finais;
-## Feira de Soluções (13 de dezembro de 2020).
 ***
