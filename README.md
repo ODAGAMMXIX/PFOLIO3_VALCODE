@@ -1,7 +1,6 @@
 # PROJETO INTEGRADOR 2020.2 - FATEC & SPC BRASIL - CADASTRO POSITIVO
-#### ENTREGA 03 / SPRINT 02 - 08/nov/2020 - EQUIPE VALCODE
-
-### VÍDEOS DAS ENTREGAS
+ 
+#### VÍDEOS DAS ENTREGAS
 
 | Descrição | Vídeo                                       |
 |--------|---------------------------------------------|
@@ -108,6 +107,7 @@ Nessa linha, podem sofrer alterações em razão de adiantamento ou atraso devid
 - **CONTROLLER:** **Importação** de Arquivo CSV com **normalização de dados**;
 - **MODEL:** registra **transações** no banco de dados;
 - **BANCO DE DADOS:** Modelagem e Documentação;
+
 #### Sprint 03 (29 de novembro de 2020).
 - VIEW: Apresenta informações e “pílulas de conhecimento”, importa dados de transações, adaptações das VIEWs desenvolvidas na Sprint 02;
 - CONTROLE: Realiza cálculos e devolve informação para VIEW;
@@ -116,7 +116,8 @@ Nessa linha, podem sofrer alterações em razão de adiantamento ou atraso devid
 - MODEL: registra dados de login;
 - BANCO DE DADOS: Modelagem para os itens acima (novas tabelas);
 - BANCO DE DADOS: Modelagem DCL;
-## Apresentação Final e Avaliação de Soft Skills (06 de dezembro de 2020).
+
+#### Apresentação Final e Avaliação de Soft Skills (06 de dezembro de 2020).
 - VIEW: correções finais;
 - CONTROLE: correções finais;
 - MODEL: correções finais;
