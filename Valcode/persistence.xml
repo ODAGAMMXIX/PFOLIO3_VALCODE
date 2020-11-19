@@ -5,7 +5,7 @@
              xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
              version="1.0">
     <persistence-unit name="controleFinancas">
-        <class>com.ExampleValcode.valcode.model.entity.Pagamentos</class>
+        <class>com.valcode.model.entity.Pagamentos</class>
         <properties>
             <property name="dialect" value="org.hibernate.dialect.Oracle10gDialect"/>
             <property name="connection.driver_class" value="oracle.jdbc.driver.OracleDriver"/>
