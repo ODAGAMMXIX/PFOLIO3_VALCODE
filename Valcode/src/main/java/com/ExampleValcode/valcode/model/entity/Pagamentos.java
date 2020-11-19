@@ -3,6 +3,7 @@ package com.ExampleValcode.valcode.model.entity;
 import lombok.*;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.math.BigInteger;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -14,7 +15,7 @@ import java.util.Date;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Pagamentos {
+public class Pagamentos implements Serializable {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     private Integer id;
@@ -37,12 +38,12 @@ public class Pagamentos {
     @Column(name = "pagamentos_dat_vct")
     private LocalDateTime dat_vct;
 
-    @Column(name = "pagementos_vlr_pgt")
+    @Column(name = "pagamentos_vlr_pgt")
     private Double vlr_pgt;
 
 //    @ManyToOne
 //    @JoinColumn(name = "pagamento_cod_mdl", referencedColumnName = "MODALIDADE_COD_MODALIDADE")
-    @Column(name = "pagementos_cod_mdl")
+    @Column(name = "pagamentos_cod_mdl")
     private String cod_mdl;
 
     public Pagamentos(String doc_cli, String tip_cli, String id_ftn, String num_unc, LocalDateTime dat_pgt, LocalDateTime dat_vct, Double vlr_pgt, String cod_mdl) {
