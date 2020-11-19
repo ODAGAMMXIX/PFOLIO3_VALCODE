@@ -9,14 +9,30 @@ import { Transacoes } from '../transacoes';
 })
 export class TransacoesListaComponent implements OnInit {
 
-  transacoes: Transacoes[] = [];
+  public transacoes: Transacoes[] = [];
+  
+  public pagamentos_doc_cli: string;
 
   constructor(private service: TransacoesService) { }
 
   ngOnInit(): void {
     this.service
       .getTransacoes()
-      .subscribe( resposta => this.transacoes = resposta );
+      .subscribe( resposta => {        
+        this.transacoes = resposta 
+        console.log(this.transacoes)     
+      });/*console.log(resposta)*/      
+ }
+
+  filtrar(){
+    /*console.log(this.pagamentos_doc_cli)*/
+    this.service
+      .getTransacoesFilter(this.pagamentos_doc_cli)
+      .subscribe( resposta => {        
+        this.transacoes = resposta 
+        console.log(this.transacoes)     
+      });
   }
 
 }
+

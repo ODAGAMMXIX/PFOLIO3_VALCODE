@@ -4,9 +4,18 @@
 </ol>
 <div class="container">
     <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label>doc_cli</label>
+                <input type="text" class="form-control" 
+                    [(ngModel)]="pagamentos_doc_cli" name="pagamentos_doc_cli"/>
+            </div>
+        </div>
+    </div>
+    <div class="row">
         <div class="col-md-2">
-            <button class="btn btn-warning">
-                <i class= "fa fa-plus"></i>novo
+            <button class="btn btn-warning" (click) = "filtrar()">
+                <i class= "fa fa-plus"></i>Consultar
             </button>
         </div>
     </div>
@@ -28,16 +37,16 @@
                     </tr>
                 </thead>            
                 <tbody>
-                    <tr *ngFor="let transacao of transacoes">
-                        <td>{{ transacao.pagamentos_id }}</td>
-                        <td>{{ transacao.pagamentos_doc_cli }}</td>
-                        <td>{{ transacao.pagamentos_tip_cli }}</td>
-                        <td>{{ transacao.pagamentos_id_ftn }}</td>
-                        <td>{{ transacao.pagamentos_num_unc }}</td>
-                        <td>{{ transacao.pagamentos_dat_pgt }}</td>
-                        <td>{{ transacao.pagamentos_dat_vct }}</td>
-                        <td>{{ transacao.pagamentos_vlr_pgt }}</td>
-                        <td>{{ transacao.pagamentos_cod_mdl }}</td>  
+                    <tr *ngFor="let transacao of transacoes">                        
+                        <td>{{ transacao.id }}</td>
+                        <td>{{ transacao.doc_cli }}</td>
+                        <td>{{ transacao.tip_cli }}</td>
+                        <td>{{ transacao.id_ftn }}</td>
+                        <td>{{ transacao.num_unc }}</td>
+                        <td>{{ transacao.dat_pgt }}</td>
+                        <td>{{ transacao.dat_vct }}</td>
+                        <td>{{ transacao.vlr_pgt }}</td>
+                        <td>{{ transacao.cod_mdl }}</td>  
                         <td></td>                      
                     </tr>                
                 </tbody>

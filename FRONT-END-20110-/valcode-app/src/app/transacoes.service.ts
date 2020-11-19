@@ -21,5 +21,9 @@ export class TransacoesService {
     return this.http.get<Transacoes[]>('http://localhost:8082/api/pagamentos');
   }
 
+  getTransacoesFilter(id: string) : Observable <Transacoes[]> {
+    return this.http.get<Transacoes[]>(`http://localhost:8082/api/pagamentos/${id}`);
+  }
+
 
 }
