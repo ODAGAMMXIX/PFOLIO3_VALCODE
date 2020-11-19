@@ -33,10 +33,10 @@ public class Pagamentos implements Serializable {
     private String num_unc;
 
     @Column(name = "pagamentos_dat_pgt")
-    private LocalDateTime dat_pgt;
+    private String dat_pgt;
 
     @Column(name = "pagamentos_dat_vct")
-    private LocalDateTime dat_vct;
+    private String dat_vct;
 
     @Column(name = "pagamentos_vlr_pgt")
     private Double vlr_pgt;
@@ -46,7 +46,7 @@ public class Pagamentos implements Serializable {
     @Column(name = "pagamentos_cod_mdl")
     private String cod_mdl;
 
-    public Pagamentos(String doc_cli, String tip_cli, String id_ftn, String num_unc, LocalDateTime dat_pgt, LocalDateTime dat_vct, Double vlr_pgt, String cod_mdl) {
+    public Pagamentos(String doc_cli, String tip_cli, String id_ftn, String num_unc, String dat_pgt, String dat_vct, Double vlr_pgt, String cod_mdl) {
         this.doc_cli = doc_cli;
         this.tip_cli = tip_cli;
         this.id_ftn = id_ftn;

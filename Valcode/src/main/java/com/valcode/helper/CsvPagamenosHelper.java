@@ -32,8 +32,8 @@ public class CsvPagamenosHelper {
                         csvRecord.get("tip_cli"),
                         csvRecord.get("id_fnt"),
                         csvRecord.get("num_unc"),
-                        LocalDateTime.parse(csvRecord.get("dat_pgt"), formatter),
-                        LocalDateTime.parse(csvRecord.get("dat_vct"), formatter),
+                        csvRecord.get("dat_pgt"),
+                        csvRecord.get("dat_vct"),
                         Double.parseDouble(csvRecord.get("vlr_pgt")),
                         csvRecord.get("cod_mdl")
                 );

@@ -1,59 +1,35 @@
 package com.valcode.service;
 
-import com.valcode.model.entity.Pagamentos;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageImpl;
-import org.springframework.data.domain.Pageable;
-import org.springframework.stereotype.Repository;
-import org.springframework.util.StringUtils;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
 
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
-import javax.persistence.TypedQuery;
 import javax.persistence.criteria.*;
-import java.util.ArrayList;
-import java.util.List;
-@Repository
+
+@Getter
+@Setter
+@AllArgsConstructor
 public class PagamentoQueryService{
 
-    @PersistenceContext
-    EntityManager em;
+    private Predicate predicate;
+    private CriteriaBuilder builder;
+    private Root r;
 
-    public Page<Pagamentos> resume(PagamentoFilter filter, Pageable pageable) {
-
-        CriteriaBuilder builder = em.getCriteriaBuilder();
-        CriteriaQuery<Pagamentos> criteria = builder.createQuery(Pagamentos.class);
-        Root<Pagamentos> root = criteria.from(Pagamentos.class);
-        Predicate predicates = addRestrict(filter, builder, root);
-        criteria.where(predicates);
-        TypedQuery<Pagamentos> query = em.createQuery(criteria);
-        return new PageImpl<>(query.getResultList(), pageable, total(filter));
-    }
-
-    private Long total(PagamentoFilter filter){
-        CriteriaBuilder builder = em.getCriteriaBuilder();
-        CriteriaQuery<Long> criteria = builder.createQuery(Long.class);
-        Root<Pagamentos> root = criteria.from(Pagamentos.class);
-        Predicate predicates = addRestrict(filter, builder, root);
-        criteria.where(predicates);
-        criteria.select(builder.count(root));
-        return em.createQuery(criteria).getSingleResult();
-    }
-
-    private Predicate addRestrict(PagamentoFilter filter, CriteriaBuilder cb, Root root) {
-        List<Predicate> predicates = new ArrayList<>();
-        if (!StringUtils.isEmpty(filter.getDocCli())) {
-            predicates.add(cb.like(cb.lower(root.get("pagamento_doc_cli")),
-                    "%" + filter.getDocCli().toLowerCase() + "%"));
-        }
-        return cb.and(predicates.toArray(new Predicate[0]));
-    }
-
-    public boolean checkIfEmpty(String phrase) {
-        if (phrase.equals("")) {
-            return true;
-        } else {
-            return false;
+    public void accept(PagamentoCriteria param) {
+        if (param.getOperation().equalsIgnoreCase(">")) {
+            predicate = builder.and(predicate, builder
+                    .greaterThanOrEqualTo(r.get(param.getKey()), param.getValue().toString()));
+        } else if (param.getOperation().equalsIgnoreCase("<")) {
+            predicate = builder.and(predicate, builder.lessThanOrEqualTo(
+                    r.get(param.getKey()), param.getValue().toString()));
+        } else if (param.getOperation().equalsIgnoreCase(":")) {
+            if (r.get(param.getKey()).getJavaType() == String.class) {
+                predicate = builder.and(predicate, builder.like(
+                        r.get(param.getKey()), "%" + param.getValue() + "%"));
+            } else {
+                predicate = builder.and(predicate, builder.equal(
+                        r.get(param.getKey()), param.getValue()));
+            }
         }
     }
 }
