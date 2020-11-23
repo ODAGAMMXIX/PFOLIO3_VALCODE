@@ -6,11 +6,12 @@ import { RouterModule } from '@angular/router';
 
 
 
+
 @NgModule({
   declarations: 
     [
     NavbarComponent, 
-    SidebarComponent
+    SidebarComponent,
   ],
   imports: [
     CommonModule,

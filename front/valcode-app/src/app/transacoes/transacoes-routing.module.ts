@@ -4,8 +4,8 @@ import { TransacoesFormComponent } from './transacoes-form/transacoes-form.compo
 import { TransacoesListaComponent } from './transacoes-lista/transacoes-lista.component';
 
 const routes: Routes = [
-  { path:'transacoes-form', component: TransacoesFormComponent},
-  { path:'transacoes-lista', component: TransacoesListaComponent}
+  
+
 
 ];
 
