@@ -16,7 +16,7 @@
 
 #### DOCUMENTAÇÃO APIS (Postman)
 
-https://documenter.getpostman.com/view/7600274/TVev553Y
+https://documenter.getpostman.com/view/7600274/TVev55W1
 
 #### I - FRONT-END
 #### 1) Tela de Entrada - dashboard:
