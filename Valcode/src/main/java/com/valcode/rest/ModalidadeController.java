@@ -9,6 +9,7 @@ import java.util.List;
 
 @RequestMapping("/api/modalidade")
 @RestController
+@CrossOrigin("http://localhost:4200")
 public class ModalidadeController {
 
     private final ModalidadeRepository repository;

@@ -1,15 +1,14 @@
 package com.valcode.model.entity;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
+
 import javax.persistence.*;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
-@Getter
-@Setter
 @Entity
-@Builder
 public class Operacoes {
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)

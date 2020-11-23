@@ -1,21 +1,18 @@
 package com.valcode.model.entity;
 
-import lombok.*;
-import javax.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
+import javax.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
-@Getter
-@Setter
 @Entity
-@Builder
 public class Modalidade {
     @Id
-    private String cod_mod;
+    private String MODALIDADE_COD_MODALIDADE;
 
     @Column
-    private String desc_mod;
+    private String MODALIDADE_DES_MODALIDADE;
 
 
 }

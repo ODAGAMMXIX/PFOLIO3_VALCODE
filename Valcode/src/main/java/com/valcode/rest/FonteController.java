@@ -11,6 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/fonte")
+@CrossOrigin("http://localhost:4200")
 public class FonteController {
 
     private final FonteRepository repository;
