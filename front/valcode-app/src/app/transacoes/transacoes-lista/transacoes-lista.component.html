@@ -1,13 +1,10 @@
-<h1 class="mt-4">Transacoes</h1>
-<ol class="breadcrumb mb-4">
-     <li class="breadcrumb-item active">Consulta</li>
-</ol>
+<h1 class="mt-4">Meus Pagamentos</h1>
 <div class="container">
     <div class="row">
         <div class="col-md-6">
             <div class="form-group">
-                <label>doc_cli</label>
-                <input type="text" class="form-control" 
+                <label>Insira o seu CPF: </label>
+                <input type="text" class="form-control"
                     [(ngModel)]="pagamentos_doc_cli" name="pagamentos_doc_cli"/>
             </div>
         </div>
@@ -24,31 +21,27 @@
             <table class="table table-condensed table-hover">
                 <thead>
                     <tr>
-                        <th>id</th>
-                        <th>doc_cli</th>
-                        <th>tip_cli</th>
-                        <th>id_ftn</th>
-                        <th>num_unc</th>
-                        <th>dat_pgt</th>
-                        <th>dat_vct</th>
-                        <th>vlr_pgt</th>
-                        <th>cod_mdl</th>
+                        <th>ID da Transação</th>
+                        <th>Tipo de Cliente</th>
+                        <th>ID da Fonte</th>
+                        <th>Data de Pagamento</th>
+                        <th>Data de vencimento</th>
+                        <th>Valor do Pagamento</th>
+                        <th>Modalidade</th>
                         <th></th>
                     </tr>
-                </thead>            
+                </thead>
                 <tbody>
-                    <tr *ngFor="let transacao of transacoes">                        
+                    <tr *ngFor="let transacao of transacoes">
                         <td>{{ transacao.id }}</td>
-                        <td>{{ transacao.doc_cli }}</td>
                         <td>{{ transacao.tip_cli }}</td>
                         <td>{{ transacao.id_ftn }}</td>
-                        <td>{{ transacao.num_unc }}</td>
                         <td>{{ transacao.dat_pgt }}</td>
                         <td>{{ transacao.dat_vct }}</td>
                         <td>{{ transacao.vlr_pgt }}</td>
-                        <td>{{ transacao.cod_mdl }}</td>  
-                        <td></td>                      
-                    </tr>                
+                        <td>{{ transacao.cod_mdl }}</td>
+                        <td></td>
+                    </tr>
                 </tbody>
             </table>
         </div>
