@@ -9,7 +9,7 @@ import { HelperComponent} from './views/helper/helper.component';
 import { MeuperfilComponent} from './views/meuperfil/meuperfil.component';
 import { LoginComponent} from './login/login.component';
 import { ForgotpasswordComponent} from './views/forgotpassword/forgotpassword.component';
-
+import { RegisterComponent } from './views/register/register.component';
 import { TransacoesListaComponent } from './transacoes/transacoes-lista/transacoes-lista.component';
 import { LayoutComponent } from './layout/layout.component';
 
@@ -26,6 +26,7 @@ const routes: Routes = [
 { path:"pontos", component: PontosComponent },
 { path:"gerenciador", component: GerenciadorComponent },
 { path:"helper", component: HelperComponent },
+{ path: "register", component: RegisterComponent },
 { path:"transacoes-lista", component: TransacoesListaComponent }
 
 ]}

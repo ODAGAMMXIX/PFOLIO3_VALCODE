@@ -1,10 +1,10 @@
-<h1 class="mt-4">Meus Pagamentos</h1>
+<h1 class="mt-4"><b>MEUS PAGAMENTOS</b></h1>
 <div class="container">
     <div class="row">
         <div class="col-md-6">
             <div class="form-group">
-                <label>Insira o seu CPF: </label>
-                <input type="text" class="form-control"
+                <label>Insira seu CPF</label>
+                <input type="text" class="form-control" 
                     [(ngModel)]="pagamentos_doc_cli" name="pagamentos_doc_cli"/>
             </div>
         </div>
@@ -18,7 +18,7 @@
     </div>
     <div class="row">
         <div class="class-col-md-12">
-            <table class="table table-condensed table-hover">
+            <table class="table table-bordered">
                 <thead>
                     <tr>
                         <th>ID da Transação</th>
@@ -27,21 +27,18 @@
                         <th>Data de Pagamento</th>
                         <th>Data de vencimento</th>
                         <th>Valor do Pagamento</th>
-                        <th>Modalidade</th>
-                        <th></th>
                     </tr>
-                </thead>
+                </thead>            
                 <tbody>
-                    <tr *ngFor="let transacao of transacoes">
+                    <tr *ngFor="let transacao of transacoes">                        
                         <td>{{ transacao.id }}</td>
                         <td>{{ transacao.tip_cli }}</td>
                         <td>{{ transacao.id_ftn }}</td>
                         <td>{{ transacao.dat_pgt }}</td>
                         <td>{{ transacao.dat_vct }}</td>
-                        <td>{{ transacao.vlr_pgt }}</td>
-                        <td>{{ transacao.cod_mdl }}</td>
-                        <td></td>
-                    </tr>
+                        <td>{{ transacao.vlr_pgt }}</td> 
+                        <td></td>                      
+                    </tr>                
                 </tbody>
             </table>
         </div>
