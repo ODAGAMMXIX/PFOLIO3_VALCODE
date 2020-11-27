@@ -3,6 +3,7 @@ package com.valcode.model.entity;
 import lombok.*;
 
 import javax.persistence.*;
+//import javax.validation.constraints.NotEmpty;
 import java.io.Serializable;
 import java.math.BigInteger;
 import java.time.LocalDate;
@@ -20,12 +21,13 @@ public class Usuario implements Serializable {
     private Integer id;
 
     @Column(name="nome")
+//    @NotEmpty(message = "{campo.login.obrigatorio}")
     private String nome;
 
     @Column(name = "sobrenome")
     private String sobrenome;
 
-    @Column(name = "cpf")
+    @Column(/*unique=true,*/name = "cpf")
     private String cpf;
 
     @Column(name = "nascimento")

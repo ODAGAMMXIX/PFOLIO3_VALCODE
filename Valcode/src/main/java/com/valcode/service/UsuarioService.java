@@ -16,6 +16,14 @@ public class UsuarioService implements UserDetailsService {
 	@Autowired
 	private UsuarioRepository repository;
 	
+//	public Usuario salvar(Usuario usuario) {
+//		boolean exists = repository.existsByUserName(usuario.getUsername());
+//		if(exists){
+//			
+//		}
+//		return repository.save(usuario);
+//	}
+	
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 		Usuario usuario = repository

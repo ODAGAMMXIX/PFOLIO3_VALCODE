@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
 
 @RestController
 @RequestMapping("/api/pagamentos")
-@CrossOrigin("http://localhost:4200")
+//@CrossOrigin("http://localhost:4200")
 public class PagamentosController {
 
     private final PagamentoRepository repository;

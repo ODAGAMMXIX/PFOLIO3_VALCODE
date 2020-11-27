@@ -13,7 +13,4 @@ public class ValcodeApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ValcodeApplication.class, args);
 	}
-
-
-
 }
