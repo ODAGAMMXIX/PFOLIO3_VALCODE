@@ -33,11 +33,6 @@ public class PagamentosController {
         return this.repository.save(pagamentos);
     }
 
-//    @GetMapping
-//    public List<Pagamentos> getAll()
-//    {
-//        return repository.findAll();
-//    }
 
     @GetMapping("{id}")
     public List<Pagamentos> getAll(@PathVariable String id)

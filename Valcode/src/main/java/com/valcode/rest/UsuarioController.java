@@ -17,7 +17,6 @@ public class UsuarioController {
 //    	return repository.save(usuario);    	
 //    }
 
-
     @Autowired
     public UsuarioController(UsuarioRepository repository){
         this.repository = repository;

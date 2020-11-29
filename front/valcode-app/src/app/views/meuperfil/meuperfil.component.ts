@@ -17,7 +17,7 @@ export class MeuperfilComponent  {
   nome:string;
   sobrenome:string;
   nascimento:string;
-  
+
   /* usuario: Usuario; */
 
   loginError: boolean;
@@ -33,32 +33,31 @@ export class MeuperfilComponent  {
     this.router.navigate(['/login'])
   } */
 
-  
-  cadastrarSucess(/* usuario */): void { 
-    const usuario: Usuario = new Usuario();    
+
+  cadastrarSucess(/* usuario */): void {
+    const usuario: Usuario = new Usuario();
     usuario.senha = this.senha;
     usuario.username = this.username;
     usuario.cpf = this.cpf;
     usuario.nome = this.nome;
     usuario.sobrenome = this.sobrenome;
-    usuario.nascimento = this.nascimento     
-    console.log(`email: ${this.username}, nome:${this.nome}`)
-    
+    usuario.nascimento = this.nascimento
+    console.log(`email: ${this.username}, nome:${this.nome}`);
     this.authService
         .salvar(usuario)
-        .subscribe( response => {  
-            this.mensagemSucesso = "Cadastro realizado com sucesso. Efetue o login";                                    
-            this.loginError = false;      
-        }, error => {            
+        .subscribe( response => {
+            this.mensagemSucesso = "Cadastro realizado com sucesso. Efetue o login";
+            this.loginError = false;
+        }, error => {
             this.loginError = true;
-            this.mensagemSucesso=null;      
-        })      
+            this.mensagemSucesso = null;
+        });
 
     /* this.router.navigate(['/login']) */
   }
 
   retornaLogin(): void {
-    this.router.navigate(['/login'])
+    this.router.navigate(['/login']);
   }
 
 }

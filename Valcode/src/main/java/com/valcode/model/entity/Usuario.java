@@ -27,13 +27,13 @@ public class Usuario implements Serializable {
     @Column(name = "sobrenome")
     private String sobrenome;
 
-    @Column(/*unique=true,*/name = "cpf")
+    @Column(unique=true,name = "email")
     private String cpf;
 
     @Column(name = "nascimento")
     private String nascimento;
 
-    @Column(name = "email")
+    @Column(unique=true,name = "cpf")
     private String username;
 
     @Column(name = "senha")

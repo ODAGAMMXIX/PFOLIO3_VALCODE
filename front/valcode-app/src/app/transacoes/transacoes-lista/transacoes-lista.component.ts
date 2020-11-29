@@ -16,8 +16,10 @@ export class TransacoesListaComponent implements OnInit {
   constructor(private service: TransacoesService) { }
 
   ngOnInit(): void {
+    let username: string = sessionStorage.getItem("user");
+    
     this.service
-      .getTransacoes()
+    .getTransacoesFilter(username)
       .subscribe( resposta => {        
         this.transacoes = resposta 
         console.log(this.transacoes)     
@@ -26,8 +28,9 @@ export class TransacoesListaComponent implements OnInit {
 
   filtrar(){
     /*console.log(this.pagamentos_doc_cli)*/
+    let username: string = sessionStorage.getItem("user");
     this.service
-      .getTransacoesFilter(this.pagamentos_doc_cli)
+      .getTransacoesFilter(username)
       .subscribe( resposta => {        
         this.transacoes = resposta 
         console.log(this.transacoes)     

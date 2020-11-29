@@ -26,6 +26,7 @@ export class LoginComponent  {
   onSubmit(){
     /* this.router.navigate(['teste/home']) */
     /* console.log(`User: ${this.username}, Pass:${this.password}`) */
+    sessionStorage.setItem("user", this.username);
     console.log(this.username, this.password);
     this.authService
           .tentarLogar(this.username, this.password)
@@ -35,6 +36,7 @@ export class LoginComponent  {
             localStorage.setItem('access_token',access_token)
             this.router.navigate(['/teste/home']);
           }, errorResponse => {
+            this.loginError = true;
             this.errors = ['Usuario e/ou senha incorreto(s).'];
           });
   }
