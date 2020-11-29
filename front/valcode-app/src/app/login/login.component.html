@@ -12,7 +12,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="alert alert-danger" *ngIf="loginError">
-                                    Login e/ou Senha Incorreto(a)
+                                    {{errors}}
                                 </div>
                                 <form #loginForm="ngForm"(submit)="onSubmit();">
                                     <div class="form-group">

@@ -37,7 +37,7 @@ export class LoginComponent  {
             this.router.navigate(['/teste/home']);
           }, errorResponse => {
             this.loginError = true;
-            this.errors = ['Usuario e/ou senha incorreto(s).'];
+            this.errors = ['CPF ou Senha incorreto(s) ou não cadastrado(s).'];
           });
   }
 
