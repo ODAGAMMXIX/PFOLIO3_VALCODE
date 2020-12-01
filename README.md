@@ -17,7 +17,7 @@
 #### DOCUMENTAÇÃO APIS (Postman)
 
 https://documenter.getpostman.com/view/7600274/TVev55W1
-
+  
 #### I - FRONT-END
 #### 1) Tela de Entrada - dashboard:
 ![TELA ENTRADA](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/TELA-00-ENTRADA-DASH.jpg?raw=true "Title")
