@@ -4,7 +4,6 @@
 
 | Descrição | Vídeo                                       |
 |--------|---------------------------------------------|
-| Sprint 00      | DANIEL, FAVOR COLOCAR VÍDEO|
 | Sprint 01      | https://www.youtube.com/watch?v=lRlFIdKHmjo |
 | Sprint 02      | https://www.youtube.com/watch?v=o_1Iov4ZG-o |
 | Sprint 03      | Em elaboração... |
