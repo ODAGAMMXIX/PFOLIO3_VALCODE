@@ -32,10 +32,6 @@ RA: 1460281923005
 RA: 1460281923019 
 <https://www.linkedin.com/mwlite/in/jessica-dias1>
 
-•	Fabio Odaguiri
-RA: 1460281923008
-<https://www.linkedin.com/in/fabioodaguiri/>
-
 •	Nathan Augusto
 RA: 1460281923027
 <https://www.linkedin.com/mwlite/in/nathan-naressi-b529081b2>
