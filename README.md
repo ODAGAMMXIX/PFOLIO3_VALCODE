@@ -1,4 +1,15 @@
 # PROJETO INTEGRADOR 2020.2 - FATEC & SPC BRASIL - CADASTRO POSITIVO
+
+### Resumo do Projeto 
+
+### Tecnologias adotadas na solução 
+
+### Contribuições individuais/pessoais 
+
+### Aprendizados Efetivos 
+
+### Contribuições individuais/pessoais. 
+
  
 #### VÍDEOS DAS ENTREGAS
 
