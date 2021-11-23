@@ -1,13 +1,31 @@
 # PORTFOLIO - LIST OF ACADEMIC PROJECTS:
 
-[PROJECT-SEMESTRE-01-2019.2 - **DANZO - Mapeador de Criminalidade ao Redor da FATEC**](https://github.com/caroolps/Portfolio01) 
+[PROJECT-SEMESTRE-01-2019.2 - *Python WebBot - Scrapping - Public Safety Monitor*](https://github.com/ODAGAMMXIX/PFOLIO1_DANZO) 
 
-[PROJECT-SEMESTRE-02-2020.1 - **GANTT CHART**](https://github.com/caroolps/Portfolio02)
+[PROJECT-SEMESTRE-02-2020.1 - *Java Stand Alone GANTT Chart tool*](https://github.com/ODAGAMMXIX/PFOLIO2_GANTT)
 
-###[PROJECT-SEMESTRE-03-2020.2 - **CADASTRO POSITIVO**](https://github.com/caroolps/Portfolio03) 
+### [PROJECT-SEMESTRE-03-2020.2 - *Java Web App - Benefits According Credit Score*](https://github.com/ODAGAMMXIX/PFOLIO3_VALCODE) 
 
-##***THIRD PROJECT, SEMESTRE-03-2020.2 - CADASTRO POSITIVO****
+***THIRD PROJECT, SEMESTRE-03-2020.2 - POSITIVE CREDIT SCORE***
 
+
+- VIEW: Tela de permissões de acesso a dados do usuário;
+![permissões](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/TELA-02-MINHA-CONTA-PERMISSOES.jpg?raw=true "Permissões")
+
+- VIEW: Tela de sumário de pontos e trocas possíveis;
+![Meus Pontos](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA07-MEUS-PONTOS.jpeg?raw=true "Title")
+
+- VIEW: Tela de Educação Financeira e Desafios;
+![Educa_Finan](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA08-MEUS-PONTOS-COM-HELPER.jpeg?raw=true "Title")
+
+- VIEW: Cadastro de Transações para Desbancarizados;
+
+- **TypeScript:** para a tela com objetos estatísticos e com cálculos de transações.
+
+![TypeTransações](https://user-images.githubusercontent.com/61089745/141664757-b8a20b0c-9d67-4c7f-94f4-0e86cc652c76.PNG)
+![Desbancarizados](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA09-GERENCIADOR.jpeg?raw=true"Desbancarizados")
+
+![Capturar](https://user-images.githubusercontent.com/61089745/141664687-7b0eac95-f8d5-45eb-a4bc-bdae8a8f52b0.PNG)
 
 
 ### I - RESUMO DO PROJETO 
@@ -170,27 +188,6 @@ Dash com as informações e histórico do Score do usuário.
 - Atuei como Product Owner.
 - Desenvolvi toda alinha de negócios da plafaforma, buscando monetização, fidelização pela gamificação e ingresso no mercdo dos DESBANCARIZADOS.
 - **Fui um dos DBA do projeto**, administrando o banco de dados com as seguintes tabelas:
-
-
-- VIEW: Tela de permissões de acesso a dados do usuário;
-![permissões](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/TELA-02-MINHA-CONTA-PERMISSOES.jpg?raw=true "Permissões")
-
-- VIEW: Tela de sumário de pontos e trocas possíveis;
-![Meus Pontos](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA07-MEUS-PONTOS.jpeg?raw=true "Title")
-
-- VIEW: Tela de Educação Financeira e Desafios;
-![Educa_Finan](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA08-MEUS-PONTOS-COM-HELPER.jpeg?raw=true "Title")
-
-- VIEW: Cadastro de Transações para Desbancarizados;
-
-- TypeScript: Utilizei o TypeScript para criar a Tela de sumário de pontos e trocas possíveis e Cadastro de Transações para Desbancarizados, pois é uma tela com objetos estatísticos e com cálculos de transações, necessitava de uma linguagem mais robusta.
-
-![TypeTransações](https://user-images.githubusercontent.com/61089745/141664757-b8a20b0c-9d67-4c7f-94f4-0e86cc652c76.PNG)
-![Desbancarizados](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA09-GERENCIADOR.jpeg?raw=true"Desbancarizados")
-
-- Validações na tela de Login: Juntamente com o backend foi implantado um mecanismo de validação na tela de login e ao digitar o user ou password errado o sistema avisa que não foi encontrado esse login;
-
-![Capturar](https://user-images.githubusercontent.com/61089745/141664687-7b0eac95-f8d5-45eb-a4bc-bdae8a8f52b0.PNG)
 
 
 ### IV - APRENDIZADOS EFETIVOS
