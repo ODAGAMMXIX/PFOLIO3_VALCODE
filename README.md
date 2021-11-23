@@ -1,36 +1,36 @@
-# LISTA PORTFÓLIOS
+# PORTFOLIO - LIST OF ACADEMIC PROJECTS:
 
 [PROJECT-SEMESTRE-01-2019.2 - **DANZO - Mapeador de Criminalidade ao Redor da FATEC**](https://github.com/caroolps/Portfolio01) 
 
 [PROJECT-SEMESTRE-02-2020.1 - **GANTT CHART**](https://github.com/caroolps/Portfolio02)
 
-[PROJECT-SEMESTRE-03-2020.2 - **CADASTRO POSITIVO**](https://github.com/caroolps/Portfolio03) 
+###[PROJECT-SEMESTRE-03-2020.2 - **CADASTRO POSITIVO**](https://github.com/caroolps/Portfolio03) 
+
+##***THIRD PROJECT, SEMESTRE-03-2020.2 - CADASTRO POSITIVO****
 
 
-# PROJETO INTEGRADOR 2020.2 - FATEC & SPC BRASIL - CADASTRO POSITIVO
 
 ### I - RESUMO DO PROJETO 
 
-Afim de atender às necessidades do cliente SPC Brasil, neste documento visa apresentar a solução tecnológica proposta pela equipe, possibilitando a identificação e classificação dos requisitos, que nortearão o desenvolvimento do projeto. 
+Empresa parceira SPC Brasil figurou como cliente.
 
-### Descrição:
+**OBJETIVO:** criar um aplicação capaz de atrair e manter  usuários cadastrados no programa *Cadastro Positivo*. Diferente do cadastro negativo, nessa modalidade, a empresa não vê apenas o que você deixou de pagar, mas o conjunto completo. Ou seja, ela vê tanto o que você pagou quanto o que você ainda não pagou. A partir da análise desses pagamentos, é calculado o seu *score* de crédito.
 
-O cliente está com dificuldades em trazer e manter seus usuários cadastrados no programa Cadastro Positivo, cujo é um programa que permite que empresas nas quais você solicita crédito vejam como você se comporta no pagamento de suas faturas. Ele é como um currículo financeiro.
+Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o usuário.
 
-Diferente do cadastro negativo, nessa modalidade, a empresa não vê apenas o que você deixou de pagar, mas o conjunto completo. Ou seja, ela vê tanto o que você pagou quanto o que você ainda não pagou. A partir da análise desses pagamentos, é calculado o seu score de crédito.
+**DIFERENCIAIS DA PLATAFORMA:**
 
-Com base nesse briefing, como característica principal, da qual decorrem as funcionalidades (requisitos), a aplicação deve possibilitar que o usuário consiga visualizar seu score,  análise dos seus dados a equipe deve propor ideias e diferenciais na aplicação para que o usuário se interesse e veja benefícios em utilizar a ferramenta Cadastro Positivo. Com isso propusemos uma ferramenta com Monetização e Fidelização como atrativo para o usuário.
-
-### Estrutura do Projeto
-![Casos-de-Uso](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/DIAGRAMA-CASOS-DE-USO-v.2.jpg?raw=true"Casos-de-Uso")
-
-### Proposta
-#### DIFERENCIAIS DA PLATAFORMA:
 - **MONETIZAÇÃO:** TODAS AS FUNÇÕES SÃO MONETIZÁVEIS;
+
 - **FIDELIZAÇÃO** pela **GAMIFICAÇÃO** POR TODO O AMBIENTE EM BUSCA DA FIDELIZAÇÃO;
 
 - **EDUCAÇÃO FINANCEIRA:** É CAPAZ DE AJUDAR O USUÁRIO A SUPERAR-SE E MELHORAR DE VIDA;
 - **DESBANCARIZADOS:** TRAZ A REALIDADE DO COMÉRCIO JÁ EXISTENTE  PARA DENTRO DA PLATAFORMA;
+
+
+**ARQUITETURA**
+![Casos-de-Uso](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/DIAGRAMA-CASOS-DE-USO-v.2.jpg?raw=true"Casos-de-Uso")
+
 
 #### I - FRONT-END
 #### 1) Tela de Login + Tratamento de Erros: Cadastro.
@@ -118,35 +118,29 @@ Dash com as informações e histórico do Score do usuário.
 ![MEUS-DADOS](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA12-MEUS-DADOS-PRIVACIDADE-2.jpeg?raw=true"MEUS-DADOS")
 ***Poder ao usuário e recompensas pelos seus dados***
 
-### PARTES DOS CÓDIGOS DETALHADOS:
+### II - TECNOLOGIAS ADOTADAS NA SOLUÇÃO 
 
-## I - ANGULAR: PRIVACIDADE E TRATAMENTO DE ERROS (LOGIN, ENVIO DA REQUISIÇÃO: ***session storage***)
+- Banco de Dados Oracle.
+
+**- ANGULAR: PRIVACIDADE E TRATAMENTO DE ERROS (LOGIN, ENVIO DA REQUISIÇÃO: ***session storage***)**
 ![PRIVACIDADE](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/PRIVACIDADE%2BTRATAMENTO-ERROS-01.jpeg?raw=true"session-storage")
 
-## II - ANGULAR: PRIVACIDADE E TRATAMENTO DE ERROS (RESPOSTA À REQUISIÇÃO: ***session storage***)
+**- ANGULAR: PRIVACIDADE E TRATAMENTO DE ERROS (RESPOSTA À REQUISIÇÃO: ***session storage***)**
 ![PRIVACIDADE](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/PRIVACIDADE%2BTRATAMENTO-ERROS-02.jpeg?raw=true"session-storage")
 
-## III - CÓDIGO: CONSULTA E ALTERA NO BANCO DE DADOS
+**- CÓDIGO: CONSULTA E ALTERA NO BANCO DE DADOS**
 ![Consulta-Altera](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/CONSULTA-ALTERA-DADOS.jpeg?raw=true"Consulta-Altera")
 
-## IV - CÓDIGO: IMPORTA ARQUIVOS CSV, TRATA DADOS E INSERE NO BANCO DE DADOS
+**- CÓDIGO: IMPORTA ARQUIVOS CSV, TRATA DADOS E INSERE NO BANCO DE DADOS**
 ![Importa-CSVl](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/IMPORTA-ARQUIVO-CODIGO.jpeg?raw=true"Importa-CSV")
 
-## VI - MODELO-RELACIONAL DO BANCO DE DADOS
+**- MODELO-RELACIONAL DO BANCO DE DADOS**
 ![Modelo-Relacional](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/MODELO-RELACIONAL-VALSCORE.jpg?raw=true"Casos-de-Uso")
 
-## VII - DIAGRAMA DE CLASSES DO BANCO DE DADOS
+**- DIAGRAMA DE CLASSES DO BANCO DE DADOS**
 ![Modelo-Relacional](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/DIAGRAMA-DE-CLASSES-VALSCORE.jpg?raw=true"Casos-de-Uso")
 
-## II - TECNOLOGIAS ADOTADAS NA SOLUÇÃO
-
-Para conciliar o aprendizado com as matérias lecionadas na FATEC, escolhemos manter a linguagem Java para desenvolver o backend e alternamos o Banco de Dados para Oracle.
-
-Desta forma, contamos com a orientação dos Docentes e muita pesquisa em fóruns virtuais especializados para implementar blocos de códigos com propósito específico.
-
-As tecnologias utilizadas foram:
-
-- Linguagem de programação Java: Java é uma linguagem de programação orientada a objetos, permanecemos com a mesma linguagem back-end para aprimoramento dos conhecimentos.
+- linguagem: ***Java*** 
 
 - SpringBoot: É um framework Java open source que tem como objetivo facilitar esse processo em aplicações Java. Consequentemente, ele trouxe mais agilidade para o processo de desenvolvimento, reduzindo o tempo gasto com as configurações iniciais. A ferramenta foi apresentada através de uma integrante do grupo que tinha mais experiência no back-end.
 
@@ -169,17 +163,14 @@ As tecnologias utilizadas foram:
 
 - Visual Code: O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft, utilizamos para rodar nosso front-end.
 
-- Banco de Dados Oracle: O Banco de dados Oracle (Oracle DB) é um sistema de gerenciamento de banco de dados relacional (RDBMS, Relational Database Management System),com ele criamos nosso banco de dados para integração com backend.
- 
 - Metodologia Scrum;
 
-
-
 ### III - CONTRIBUIÇÕES INDIVIDUAS/PESSOAIS
+- Atuei como Product Owner.
+- Desenvolvi toda alinha de negócios da plafaforma, buscando monetização, fidelização pela gamificação e ingresso no mercdo dos DESBANCARIZADOS.
+- **Fui um dos DBA do projeto**, administrando o banco de dados com as seguintes tabelas:
 
-Nesse projeto como a equipe já tinha passado pelo conhecimento em back-end, front-end e banco de dados para aprimorar os conhecimentos na área que mais nos identificamos, cada integrante do grupo pode escolher a sua função. Como eu foquei no back-end e banco de dados no Projeto anterior, resolvi participar da equipe do Front-end para poder aprimorar o que eu já conhecia e estudar novas tecnologias, então pude contribuir com o projeto, trazendo:
 
-- Aplicação Angular: Angular é uma plataforma de aplicações web de código-fonte aberto e front-end baseado em TypeScript, por ser um framework modular, ele precisa de um ou mais módulos para que possamos gerenciar os nossos componentes, esse módulo acaba sendo um default, mas podemos criar outros modulos e chamar eles dentro dele, por essa organização, facilidade de entendimento e por ser uns dos principais frameworks mais utilizados atualmente, resolvemos trazer essa aplicação para nosso projeto. Antes de iniciarmos essa ferramenta estávamos construindo as telas do zero com todas as tags com HTML e CSS puro, por sugestão de uma colega ela nos apresentou o Angular e através dessa tecnologia desenvolvi as telas:
 - VIEW: Tela de permissões de acesso a dados do usuário;
 ![permissões](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/TELA-02-MINHA-CONTA-PERMISSOES.jpg?raw=true "Permissões")
 
