@@ -8,24 +8,9 @@
 
 ***THIRD PROJECT, SEMESTRE-03-2020.2 - POSITIVE CREDIT SCORE***
 
+[![image](imgs/MicrosoftTeams-image%20(2).png)](https://youtu.be/w2c7l4HPcSs)
 
-- VIEW: Tela de permissões de acesso a dados do usuário;
-![permissões](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/TELA-02-MINHA-CONTA-PERMISSOES.jpg?raw=true "Permissões")
-
-- VIEW: Tela de sumário de pontos e trocas possíveis;
-![Meus Pontos](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA07-MEUS-PONTOS.jpeg?raw=true "Title")
-
-- VIEW: Tela de Educação Financeira e Desafios;
-![Educa_Finan](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA08-MEUS-PONTOS-COM-HELPER.jpeg?raw=true "Title")
-
-- VIEW: Cadastro de Transações para Desbancarizados;
-
-- **TypeScript:** para a tela com objetos estatísticos e com cálculos de transações.
-
-![TypeTransações](https://user-images.githubusercontent.com/61089745/141664757-b8a20b0c-9d67-4c7f-94f4-0e86cc652c76.PNG)
-![Desbancarizados](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA09-GERENCIADOR.jpeg?raw=true"Desbancarizados")
-
-![Capturar](https://user-images.githubusercontent.com/61089745/141664687-7b0eac95-f8d5-45eb-a4bc-bdae8a8f52b0.PNG)
+[![image](imgs/MicrosoftTeams-image%20(3).png)](https://youtu.be/g0p9_XtqxcU)
 
 
 ### I - RESUMO DO PROJETO 
@@ -46,11 +31,9 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 - **DESBANCARIZADOS:** TRAZ A REALIDADE DO COMÉRCIO JÁ EXISTENTE  PARA DENTRO DA PLATAFORMA;
 
 
-**ARQUITETURA**
+#**ARQUITETURA**
 ![Casos-de-Uso](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/DIAGRAMA-CASOS-DE-USO-v.2.jpg?raw=true"Casos-de-Uso")
 
-
-#### I - FRONT-END
 #### 1) Tela de Login + Tratamento de Erros: Cadastro.
 ![TELA ENTRADA](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA01-ENTRADA-01.jpeg?raw=true "Title")
 Usuário cadastra-se voluntariamente.
@@ -184,29 +167,56 @@ Dash com as informações e histórico do Score do usuário.
 
 - Metodologia *Scrum* e Ágil;
 
+Estudamos e deixamos de implementar:
+- **TensorFlow:**Machine Learning através de **redes neurais**;
+
+![image](imgs/MicrosoftTeams-image4.png)
+
+
+
 ### III - CONTRIBUIÇÕES INDIVIDUAS/PESSOAIS
 - Atuei como Product Owner.
-- Desenvolvi toda alinha de negócios da plafaforma, buscando monetização, fidelização pela gamificação e ingresso no mercdo dos DESBANCARIZADOS.
-- **Fui um dos DBA do projeto**, administrando o banco de dados com as seguintes tabelas:
+- **Desenvolvi toda alinha de negócios da plafaforma**, buscando monetização, fidelização pela gamificação e ingresso no mercado dos DESBANCARIZADOS, especialmente:
+
+**i) *"Minha Conta, MEUS dados"*:**
+
+***- Empoderamento do usuário*** (Fidelização).
+
+***- Quanto mais ele permite, mais pontos ganha*** (Monetização, Fidelização pela Gamificação).
+
+**ii) *"Meus Pontos, Minhas Trocas"***
+
+***- Vantagens ao Usuário*** (Monetização, Fidelização pela Gamificação, intercâmbio com outros programas de pontos)
+
+**iii) *HELPER - Educação Financeira***
+
+***- Educação Financeira*** (Monetização, Fidelização pela Gamificação, podendo conectar aqui uma ***legaltech*** para intermediar acordos, "feirão" para limpar nome etc.).
+
+**DESBANCARIZADOS - Criação de movimentos para microcrédito:**
+***Certificação cruzada (estabelecimento e consumidores) para capturar dados atualmente inexistentes, fortalecer laços nessa faixa de comércio, possibilitar microcrédito em estabelecimentos nesses locais, com:*** 
+
+- Atração pela eliminação de planilha e carnês em papel;
+
+- Impulsionamento da geração de dados nesse segmento do mercado (transações já existem na vida real, porém, não são capturadas);
+
+- Compartilhamento de risco com a rede, que se auto-avaliará (tal como fazem o passageiro do aplicativo e o motorista; comprador e vendedor nos sites de intermediação de venda etc.);
+
+- Segurança ao próximo estabelecimento, para decidir se pode vender "fiado" para pessoas de certa comunidade (Ex: o dentista atende uma emergência naquele bairro e saberá se tal paciente está pagando "em dia" o crediário do sapado e da papelaria (material escolar);
+
+- Fidelização, já que o desbancarizado poderá usufruir dos mesmos benefícios dos demais (exceto para créditos maiores).
+
+- **criei uma proposta de Cálculo de Score pré-Machine Learning**
+![image](imgs/MicrosoftTeams-image.png)
+
+![image](imgs/MicrosoftTeams-image%20(1).png)
 
 
+ **Fui um dos DBA do projeto**, administrando o banco de dados Oracle.
+ 
 ### IV - APRENDIZADOS EFETIVOS
 
-Cada projeto integrador é singular, mas é notável que em cada semestre estamos com mais conhecimento e prática nas ferramentas sendo capaz de desenvolver código Backend e Front-End mais rápido, limpo e com boas práticas.
+- **Desvendei o mercado dos DESBANCARIZADO:** cerca de 36 milhões de pessoas que cometem atos de comércio e de consumo no país e geralmente tratados como **economicamente invisíveis** (*off-grid*), **podem tornar-se tomadores de microcrédito com o estímulo de *surplus* local**, em suas comunicades.
+Além de revelar e incluir pessoas, a aplicação pode **viabilizar crédito para quem precisa e não é atendido pelos chamados "bancões"**.
+**Vide programa RodaViva com Cristina Junqueira, sócia-fundadora do nubank (https://www.youtube.com/watch?v=2vYX8B-Ro7M)**
 
-Terminamos esse projeto sendo capazes de gerar uma aplicação Web com Angular um dos frameworks mais utilizados no Brasil, essa vivência é um grande ganho para o mundo profissional. Pude conhecer a linguagem de TypeScript e reforçar meus conhecimentos em  CSS, HTML e demais tipo de estilização.
-
-Não imaginava que era possível e como se testava uma requisição back-end, com o projeto integrador e com uma integrante com mais vivência em programação ela nos apresentou e ensinou como usar o Postman e Insominia que são ferramentas utilizadas em grandes empresas.
-
-Conheci um novo banco de dados Oracle e como usar o Hibernet, não tinha o conhecimento que era possível criar tabelas e banco de dados automaticamente. Uma funcionalidade tão simples e prática que nos poupo tempo para dedicarmos em outras tarefas do projeto. Conseguimos colocar em prática o que estávamos aprendendo na matéria de Banco de Dados. Atribuindo permissões e importando DataSet. Tive a vivência em ver e rodar uma aplicação Java com SpringBoot configurando os arquivos Properties e o POM.xml. Questões de usabilidade que uso até os dias atuais.
-
-![image](https://user-images.githubusercontent.com/61089745/141985879-cebdf425-daba-47b0-bacb-c9b645085e31.png)
-
-
-Aprimorei o conhecimento do repositório GitHub.
-
-Conheci um novo editor, Visual Code, não sabia da existencia até rodar a aplicação front end em Angular.
-
-Esse semestre foi decisório para por em prática todos os conhecimentos adquiridos ao decorrer do curso. Portanto, pude demonstrar essa vivência na área de programação fora da faculdade e conciliar com a minha área administrativa. Me destacando na empresa fazendo consultas no banco de dados, entendendo melhor um requisito do cliente e sua regra de negócio, foi um marco para minha mudança profissional que me fez sair de função de auxiliar administrativo para Analista de Teste/QA.
-
-
+- Utilização do Oracle, Insomnia, POSTMAN, VISUAL STUDIO CODE;
