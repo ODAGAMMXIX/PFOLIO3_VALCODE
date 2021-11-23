@@ -10,6 +10,8 @@
 
 [![image](imgs/MicrosoftTeams-image%20(2).png)](https://youtu.be/w2c7l4HPcSs)
 
+SOBRE DESBANCARIZADOS
+
 [![image](imgs/MicrosoftTeams-image%20(3).png)](https://youtu.be/g0p9_XtqxcU)
 
 
@@ -121,19 +123,7 @@ Dash com as informações e histórico do Score do usuário.
 
 ### II - TECNOLOGIAS ADOTADAS NA SOLUÇÃO 
 
-- Banco de Dados Oracle.
-
-**- ANGULAR: PRIVACIDADE E TRATAMENTO DE ERROS (LOGIN, ENVIO DA REQUISIÇÃO: ***session storage***)**
-![PRIVACIDADE](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/PRIVACIDADE%2BTRATAMENTO-ERROS-01.jpeg?raw=true"session-storage")
-
-**- ANGULAR: PRIVACIDADE E TRATAMENTO DE ERROS (RESPOSTA À REQUISIÇÃO: ***session storage***)**
-![PRIVACIDADE](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/PRIVACIDADE%2BTRATAMENTO-ERROS-02.jpeg?raw=true"session-storage")
-
-**- CÓDIGO: CONSULTA E ALTERA NO BANCO DE DADOS**
-![Consulta-Altera](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/CONSULTA-ALTERA-DADOS.jpeg?raw=true"Consulta-Altera")
-
-**- CÓDIGO: IMPORTA ARQUIVOS CSV, TRATA DADOS E INSERE NO BANCO DE DADOS**
-![Importa-CSVl](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/IMPORTA-ARQUIVO-CODIGO.jpeg?raw=true"Importa-CSV")
+- **Banco de Dados Oracle.**
 
 **- MODELO-RELACIONAL DO BANCO DE DADOS**
 ![Modelo-Relacional](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/MODELO-RELACIONAL-VALSCORE.jpg?raw=true"Casos-de-Uso")
@@ -142,9 +132,6 @@ Dash com as informações e histórico do Score do usuário.
 ![Modelo-Relacional](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/DIAGRAMA-DE-CLASSES-VALSCORE.jpg?raw=true"Casos-de-Uso")
 
 - linguagem: ***Java*** 
-
-- **SpringBoot:** *open source framework Java*.
-
 - **Angular:** *framework Java* ou plataforma (há divergêcias conceituais) para aplicações web (*front-end*) baseado em TypeScript.
 
 ![MóduloAngular](https://user-images.githubusercontent.com/61089745/141664849-ddac0cb9-7e06-4526-8e5a-562b2aee8463.PNG)
@@ -154,6 +141,20 @@ Dash com as informações e histórico do Score do usuário.
 - **CSS, HTML:** Linguagens de marcação utilizada na construção de páginas na Web e juntamente aplicamos o CSS para dar estilo;
 
 - **CSS framework Bootstrap:** Componente de interface para sites e aplicações web (estilização e responsividade).
+
+**- ANGULAR: PRIVACIDADE E TRATAMENTO DE ERROS (LOGIN, ENVIO DA REQUISIÇÃO: ***session storage***)**
+![PRIVACIDADE](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/PRIVACIDADE%2BTRATAMENTO-ERROS-01.jpeg?raw=true"session-storage")
+
+**- ANGULAR: PRIVACIDADE E TRATAMENTO DE ERROS (RESPOSTA À REQUISIÇÃO: ***session storage***)**
+![PRIVACIDADE](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/PRIVACIDADE%2BTRATAMENTO-ERROS-02.jpeg?raw=true"session-storage")
+
+- **SpringBoot:** *open source framework Java*.
+
+**- CÓDIGO: CONSULTA E ALTERA NO BANCO DE DADOS**
+![Consulta-Altera](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/CONSULTA-ALTERA-DADOS.jpeg?raw=true"Consulta-Altera")
+
+**- CÓDIGO: IMPORTA ARQUIVOS CSV, TRATA DADOS E INSERE NO BANCO DE DADOS**
+![Importa-CSVl](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/IMPORTA-ARQUIVO-CODIGO.jpeg?raw=true"Importa-CSV")
 
 - **Postman:** API Client para teste de CRUD, compartilhamento e documentação de APIs.
 
@@ -178,21 +179,21 @@ Estudamos e deixamos de implementar:
 - Atuei como Product Owner.
 - **Desenvolvi toda alinha de negócios da plafaforma**, buscando monetização, fidelização pela gamificação e ingresso no mercado dos DESBANCARIZADOS, especialmente:
 
-**i) *"Minha Conta, MEUS dados"*:**
+        i) "MINHA Conta, MEUS dados":
 
 ***- Empoderamento do usuário*** (Fidelização).
 
 ***- Quanto mais ele permite, mais pontos ganha*** (Monetização, Fidelização pela Gamificação).
 
-**ii) *"Meus Pontos, Minhas Trocas"***
+         ii) "Meus Pontos, Minhas Trocas"
 
 ***- Vantagens ao Usuário*** (Monetização, Fidelização pela Gamificação, intercâmbio com outros programas de pontos)
 
-**iii) *HELPER - Educação Financeira***
+        iii) HELPER - Educação Financeira
 
 ***- Educação Financeira*** (Monetização, Fidelização pela Gamificação, podendo conectar aqui uma ***legaltech*** para intermediar acordos, "feirão" para limpar nome etc.).
 
-**DESBANCARIZADOS - Criação de movimentos para microcrédito:**
+        iv) DESBANCARIZADOS - Criação de movimentos para microcrédito:
 ***Certificação cruzada (estabelecimento e consumidores) para capturar dados atualmente inexistentes, fortalecer laços nessa faixa de comércio, possibilitar microcrédito em estabelecimentos nesses locais, com:*** 
 
 - Atração pela eliminação de planilha e carnês em papel;
@@ -217,6 +218,12 @@ Estudamos e deixamos de implementar:
 
 - **Desvendei o mercado dos DESBANCARIZADO:** cerca de 36 milhões de pessoas que cometem atos de comércio e de consumo no país e geralmente tratados como **economicamente invisíveis** (*off-grid*), **podem tornar-se tomadores de microcrédito com o estímulo de *surplus* local**, em suas comunicades.
 Além de revelar e incluir pessoas, a aplicação pode **viabilizar crédito para quem precisa e não é atendido pelos chamados "bancões"**.
+
+- Constatei ser possível utilizar ferramentas de alto nível como o TensorFlow, utilizadas por empresas como:
+
+![image](imgs/MicrosoftTeams-image5.png)
+
+
 **Vide programa RodaViva com Cristina Junqueira, sócia-fundadora do nubank (https://www.youtube.com/watch?v=2vYX8B-Ro7M)**
 
 - Utilização do Oracle, Insomnia, POSTMAN, VISUAL STUDIO CODE;
