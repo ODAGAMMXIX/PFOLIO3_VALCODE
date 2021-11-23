@@ -142,28 +142,29 @@ Dash com as informações e histórico do Score do usuário.
 
 - linguagem: ***Java*** 
 
-- SpringBoot: É um framework Java open source que tem como objetivo facilitar esse processo em aplicações Java. Consequentemente, ele trouxe mais agilidade para o processo de desenvolvimento, reduzindo o tempo gasto com as configurações iniciais. A ferramenta foi apresentada através de uma integrante do grupo que tinha mais experiência no back-end.
+- **SpringBoot:** *open source framework Java*.
 
-- Angular: Desenvolvemos nosso front-end pelo Angular, que é uma plataforma de aplicações web de código-fonte aberto e front-end baseado em TypeScript.
+- **Angular:** *framework Java* ou plataforma (há divergêcias conceituais) para aplicações web (*front-end*) baseado em TypeScript.
 
 ![MóduloAngular](https://user-images.githubusercontent.com/61089745/141664849-ddac0cb9-7e06-4526-8e5a-562b2aee8463.PNG)
 
-- Linguagem de programação Type Script: TypeScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web. Usamos o javascript para aprimorar nossa aplicação web com foco nos cálculos, e estilização dos cards e dashboard;
+- **Type Script:**  linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web. Usamos o javascript para aprimorar nossa aplicação web com foco nos cálculos, e estilização dos CARDS e DASHBOARD;
 
-- Linguagem de marcação CSS, HTML: HTML é utilizada na construção de páginas na Web e juntamente aplicamos o CSS para dar estilo a nossa aplicação;
+- **CSS, HTML:** Linguagens de marcação utilizada na construção de páginas na Web e juntamente aplicamos o CSS para dar estilo;
 
-- CSS framework Bootstrap: É um componente de interface para sites e aplicações web, utilizamos para estilização e responsividade da nossa aplicação Web.
+- **CSS framework Bootstrap:** Componente de interface para sites e aplicações web (estilização e responsividade).
 
-- Postman: Testamos nossas requisições através do Postman, que é um API Client que facilita aos desenvolvedores criar, compartilhar, testar e documentar APIs.
+- **Postman:** API Client para teste de CRUD, compartilhamento e documentação de APIs.
 
-- Insomnia: Testamos nossas requisições através do Insominia, que é um API Client que facilita aos desenvolvedores criar, compartilhar, testar e documentar APIs.
+- **Insomnia:** idem.
+
 ![image](https://user-images.githubusercontent.com/61089745/141985664-81df10dc-fd1d-44d1-b65f-06f8eb0ce5e4.png)
 
-- Data Grip: IDE de banco de dados, ele detecta bugs prováveis no código e sugere as melhores opções para corrigi-los rapidamente.
+- **Data Grip:** IDE de banco de dados que detecta bugs no código e sugere correções.
 
-- Visual Code: O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft, utilizamos para rodar nosso front-end.
+- IDE: **Visual Code:**.
 
-- Metodologia Scrum;
+- Metodologia *Scrum* e Ágil;
 
 ### III - CONTRIBUIÇÕES INDIVIDUAS/PESSOAIS
 - Atuei como Product Owner.
