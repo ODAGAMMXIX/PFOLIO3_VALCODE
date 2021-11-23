@@ -6,7 +6,7 @@
 
 ### [PROJECT-SEMESTRE-03-2020.2 - *Java Web App - Benefits According Credit Score*](https://github.com/ODAGAMMXIX/PFOLIO3_VALCODE) 
 
-***THIRD PROJECT, SEMESTRE-03-2020.2 - POSITIVE CREDIT SCORE***
+## ***THIRD PROJECT, SEMESTRE-03-2020.2 - POSITIVE CREDIT SCORE***
 
 [![image](imgs/MicrosoftTeams-image%20(2).png)](https://youtu.be/w2c7l4HPcSs)
 
