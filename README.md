@@ -152,7 +152,7 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 
 :wrench:  linguagem: ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 
-:wrench:  **Angular:** *framework* ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ou plataforma (há divergêcias conceituais) para aplicações web (*front-end*) baseado em TypeScript.
+:wrench:  ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) *framework* ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ou plataforma (há divergêcias conceituais) para aplicações web (*front-end*) baseado em TypeScript.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141664849-ddac0cb9-7e06-4526-8e5a-562b2aee8463.PNG">
@@ -165,13 +165,13 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 
 :wrench:  **CSS framework**![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white): Componente de interface para sites e aplicações web (estilização e responsividade).
 
-- ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)**: PRIVACIDADE E TRATAMENTO DE ERROS (LOGIN, ENVIO DA REQUISIÇÃO: ***session storage***)**
+ ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)**: PRIVACIDADE E TRATAMENTO DE ERROS (LOGIN, ENVIO DA REQUISIÇÃO: ***session storage***)**
 
 <p align="center">
 <img src="https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/PRIVACIDADE%2BTRATAMENTO-ERROS-01.jpeg">
  </p>
 
-- ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white): **PRIVACIDADE E TRATAMENTO DE ERROS (RESPOSTA À REQUISIÇÃO: ***session storage***)**
+ ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white): **PRIVACIDADE E TRATAMENTO DE ERROS (RESPOSTA À REQUISIÇÃO: ***session storage***)**
 
 <p align="center">
 <img src="https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/PRIVACIDADE%2BTRATAMENTO-ERROS-02.jpeg">
@@ -198,31 +198,35 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 :wrench:  Metodologia *Scrum* e Ágil;
 
 Estudamos e deixamos de implementar:
-:wrench:  ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white):**Machine Learning através de **redes neurais**;
+
+:wrench:  ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white):*Machine Learning* através de **redes neurais**;
 
 ![image](imgs/MicrosoftTeams-image4.png)
 
 
 
 # III - CONTRIBUIÇÕES INDIVIDUAS/PESSOAIS
-- Atuei como Product Owner.
-- **Desenvolvi toda alinha de negócios da plafaforma**, buscando monetização, fidelização pela gamificação e ingresso no mercado dos DESBANCARIZADOS, especialmente:
 
-        i) "MINHA Conta, MEUS dados":
+:heavy_check_mark: Atuei como Product Owner.
 
+:heavy_check_mark: **Desenvolvi toda a linha de negócios da plafaforma**, buscando monetização, fidelização pela gamificação e ingresso no mercado dos DESBANCARIZADOS, especialmente:
+
+ i) "MINHA Conta, MEUS dados": 
+ 
 ***- Empoderamento do usuário*** (Fidelização).
 
 ***- Quanto mais ele permite, mais pontos ganha*** (Monetização, Fidelização pela Gamificação).
 
-         ii) "Meus Pontos, Minhas Trocas"
+ ii) "Meus Pontos, Minhas Trocas"
 
 ***- Vantagens ao Usuário*** (Monetização, Fidelização pela Gamificação, intercâmbio com outros programas de pontos)
 
-        iii) HELPER - Educação Financeira
+ iii) HELPER - Educação Financeira
 
 ***- Educação Financeira*** (Monetização, Fidelização pela Gamificação, podendo conectar aqui uma ***legaltech*** para intermediar acordos, "feirão" para limpar nome etc.).
 
-        iv) DESBANCARIZADOS - Criação de movimentos para microcrédito:
+ iv) DESBANCARIZADOS - Criação de movimentos para microcrédito:
+
 ***Certificação cruzada (estabelecimento e consumidores) para capturar dados atualmente inexistentes, fortalecer laços nessa faixa de comércio, possibilitar microcrédito em estabelecimentos nesses locais, com:*** 
 
 - Atração pela eliminação de planilha e carnês em papel;
@@ -235,27 +239,34 @@ Estudamos e deixamos de implementar:
 
 - Fidelização, já que o desbancarizado poderá usufruir dos mesmos benefícios dos demais (exceto para créditos maiores).
 
-- **criei uma proposta de Cálculo de Score pré-Machine Learning**
+:heavy_check_mark: **criei uma proposta de Cálculo de Score pré-Machine Learning**
 ![image](imgs/MicrosoftTeams-image.png)
 
 ![image](imgs/MicrosoftTeams-image%20(1).png)
 
 
- **Fui um dos DBA do projeto**, administrando o banco de dados Oracle.
+ :heavy_check_mark: **Fui um dos DBA do projeto**, administrando o banco de dados Oracle.
  
 # IV - APRENDIZADOS EFETIVOS
 
-- **Desvendei o mercado dos DESBANCARIZADO:** cerca de 36 milhões de pessoas que cometem atos de comércio e de consumo no país e geralmente tratados como **economicamente invisíveis** (*off-grid*), **podem tornar-se tomadores de microcrédito com o estímulo de *surplus* local**, em suas comunicades.
+:heavy_check_mark: **Desvendei o mercado dos DESBANCARIZADO:** cerca de 36 milhões de pessoas que cometem atos de comércio e de consumo no país e geralmente tratados como **economicamente invisíveis** (*off-grid*), **podem tornar-se tomadores de microcrédito com o estímulo de *surplus* local**, em suas comunicades.
 Além de revelar e incluir pessoas, a aplicação pode **viabilizar crédito para quem precisa e não é atendido pelos chamados "bancões"**.
-
-- Constatei ser possível utilizar ferramentas de alto nível como o TensorFlow, utilizadas por empresas como:
-
-![image](imgs/MicrosoftTeams-image5.png)
-
 
 **Vide programa RodaViva com Cristina Junqueira, sócia-fundadora do nubank (https://www.youtube.com/watch?v=2vYX8B-Ro7M)**
 
-- Utilização do Oracle, Insomnia, POSTMAN, VISUAL STUDIO CODE;
+:heavy_check_mark: Constatei ser possível utilizar ferramentas de alto nível como o TensorFlow, utilizadas por empresas como:
+
+![image](imgs/MicrosoftTeams-image5.png)
+
+:heavy_check_mark:![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+
+:heavy_check_mark: ![Insomnia](https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE)
+
+:heavy_check_mark: Postman 	![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+:heavy_check_mark: ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+
 
 The End.
 :arrow_up: 
