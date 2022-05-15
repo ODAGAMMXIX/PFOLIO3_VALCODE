@@ -213,13 +213,13 @@ Estudamos e deixamos de implementar:
 
  <h4 align="center">"MINHA Conta, MEUS dados"</h4>
  
-:large_blue_circle: *** Empoderamento do usuário*** (Fidelização).
+:large_blue_circle: ***Empoderamento do usuário*** (Fidelização).
 
-:large_blue_circle: *** Quanto mais ele permite, mais pontos ganha*** (Monetização, Fidelização pela Gamificação).
+:large_blue_circle: ***Quanto mais ele permite, mais pontos ganha*** (Monetização, Fidelização pela Gamificação).
 
  <h4 align="center">"Meus Pontos, Minhas Trocas"</h4>
 
-:large_blue_circle: *** Vantagens ao Usuário*** (Monetização, Fidelização pela Gamificação, intercâmbio com outros programas de pontos)
+:large_blue_circle: ***Vantagens ao Usuário*** (Monetização, Fidelização pela Gamificação, intercâmbio com outros programas de pontos)
 
  <h4 align="center">HELPER - Educação Financeira</h4>
 
