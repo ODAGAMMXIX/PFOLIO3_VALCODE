@@ -21,7 +21,7 @@
 </p>
 
 <p align="center"> 
- <[`vídeo da aplicação`](https://youtu.be/w2c7l4HPcSs)>
+ [`vídeo da aplicação`]<https://youtu.be/w2c7l4HPcSs>
 </p>
 
 <h5 align="center">[BÔNUS SOBRE DESBANCARIZADOS]</h5>
