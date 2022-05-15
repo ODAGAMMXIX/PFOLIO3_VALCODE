@@ -18,13 +18,21 @@
 
 <p align="center"> 
  <img width="460" height="370"  src="imgs/MicrosoftTeams-image%20(2).png">
- 
- [`vídeo`](https://youtu.be/w2c7l4HPcSs)
 </p>
 
-SOBRE DESBANCARIZADOS
+<p align="center"> 
+ [`vídeo da aplicação`](https://youtu.be/w2c7l4HPcSs)
+</p>
 
-[![image](imgs/MicrosoftTeams-image%20(3).png)](https://youtu.be/g0p9_XtqxcU)
+<h5 align="center">[BÔNUS SOBRE DESBANCARIZADOS]</h5>
+
+<p align="center"> 
+ <img width="660" height="370"  src="imgs/MicrosoftTeams-image%20(3).png">
+</p>
+
+<p align="center"> 
+ [`vídeo da aplicação`](https://youtu.be/g0p9_XtqxcU)
+</p>
 
 
 # I - RESUMO DO PROJETO 
