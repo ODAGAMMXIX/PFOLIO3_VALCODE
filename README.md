@@ -136,7 +136,11 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 :wrench:  **Banco de Dados Oracle.**
 
 **- MODELO-RELACIONAL DO BANCO DE DADOS**
-![Modelo-Relacional](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/MODELO-RELACIONAL-VALSCORE.jpg?raw=true"Casos-de-Uso")
+
+<p align="center">
+<img src="https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/MODELO-RELACIONAL-VALSCORE.jpg">
+ </p>
+ 
 
 **- DIAGRAMA DE CLASSES DO BANCO DE DADOS**
 
