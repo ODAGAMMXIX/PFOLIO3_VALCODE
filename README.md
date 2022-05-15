@@ -16,24 +16,11 @@
 
 <h1 align="center">[Java-Oracle - Cadastro Positivo e Desbancarizados]</h1>
 
-<p align="center"> 
- <img width="460" height="370"  src="imgs/MicrosoftTeams-image%20(2).png"(https://youtu.be/w2c7l4HPcSs)>
-</p>
-
-<p align="center"> 
- ['vídeo da aplicação'](https://youtu.be/w2c7l4HPcSs)
-</p>
-<h1 align="center">['vídeo da aplicação']</h1>(https://youtu.be/w2c7l4HPcSs)
+[![image](imgs/MicrosoftTeams-image%20(2).png)](https://youtu.be/w2c7l4HPcSs)
 
 <h5 align="center">[BÔNUS SOBRE DESBANCARIZADOS]</h5>
 
-<p align="center"> 
- <img width="660" height="370"  src="imgs/MicrosoftTeams-image%20(3).png">
-</p>
-
-<p align="center"> 
- [vídeo-bônus](https://youtu.be/g0p9_XtqxcU)
-</p>
+[![image](imgs/MicrosoftTeams-image%20(3).png)](https://youtu.be/g0p9_XtqxcU)
 
 
 # I - RESUMO DO PROJETO 
