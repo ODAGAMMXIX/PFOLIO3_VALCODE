@@ -16,8 +16,10 @@
 
 <h1 align="center">[Java-Oracle - Cadastro Positivo e Desbancarizados]</h1>
 
-
-[![image](imgs/MicrosoftTeams-image%20(2).png)](https://youtu.be/w2c7l4HPcSs)
+<p align="center"> 
+ <img width="460" height="370"  src="imgs/MicrosoftTeams-image%20(2).png)](https://youtu.be/w2c7l4HPcSs">
+ 
+</p>
 
 SOBRE DESBANCARIZADOS
 
