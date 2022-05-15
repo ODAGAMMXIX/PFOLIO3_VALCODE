@@ -207,45 +207,45 @@ Estudamos e deixamos de implementar:
 
 # III - CONTRIBUIÇÕES INDIVIDUAS/PESSOAIS
 
-:heavy_check_mark: Atuei como Product Owner.
+:white_check_mark: Atuei como *Product Owner*.
 
-:heavy_check_mark: **Desenvolvi toda a linha de negócios da plafaforma**, buscando monetização, fidelização pela gamificação e ingresso no mercado dos DESBANCARIZADOS, especialmente:
+:white_check_mark: **Desenvolvi toda a linha de negócios da plafaforma**, buscando monetização, fidelização pela gamificação e ingresso no mercado dos **DESBANCARIZADOS**, especialmente:
 
- i) "MINHA Conta, MEUS dados": 
+ <h4 align="center">"MINHA Conta, MEUS dados"</h4>
  
-***- Empoderamento do usuário*** (Fidelização).
+:large_blue_circle: *** Empoderamento do usuário*** (Fidelização).
 
-***- Quanto mais ele permite, mais pontos ganha*** (Monetização, Fidelização pela Gamificação).
+:large_blue_circle: *** Quanto mais ele permite, mais pontos ganha*** (Monetização, Fidelização pela Gamificação).
 
- ii) "Meus Pontos, Minhas Trocas"
+ <h4 align="center">"Meus Pontos, Minhas Trocas"</h4>
 
-***- Vantagens ao Usuário*** (Monetização, Fidelização pela Gamificação, intercâmbio com outros programas de pontos)
+:large_blue_circle: *** Vantagens ao Usuário*** (Monetização, Fidelização pela Gamificação, intercâmbio com outros programas de pontos)
 
- iii) HELPER - Educação Financeira
+ <h4 align="center">HELPER - Educação Financeira</h4>
 
-***- Educação Financeira*** (Monetização, Fidelização pela Gamificação, podendo conectar aqui uma ***legaltech*** para intermediar acordos, "feirão" para limpar nome etc.).
+:large_blue_circle: ***Educação Financeira*** (Monetização, Fidelização pela Gamificação, podendo conectar aqui uma ***legaltech*** para intermediar acordos, "feirão" para limpar nome etc.).
 
- iv) DESBANCARIZADOS - Criação de movimentos para microcrédito:
+  <h4 align="center">DESBANCARIZADOS - Criação de movimentos para microcrédito</h4>
 
-***Certificação cruzada (estabelecimento e consumidores) para capturar dados atualmente inexistentes, fortalecer laços nessa faixa de comércio, possibilitar microcrédito em estabelecimentos nesses locais, com:*** 
+:large_blue_circle: ***Certificação cruzada (estabelecimento e consumidores) para capturar dados atualmente inexistentes, fortalecer laços nessa faixa de comércio, possibilitar microcrédito em estabelecimentos nesses locais, com:*** 
 
-- Atração pela eliminação de planilha e carnês em papel;
+:small_blue_diamond: Atração pela eliminação de planilha e carnês em papel;
 
-- Impulsionamento da geração de dados nesse segmento do mercado (transações já existem na vida real, porém, não são capturadas);
+:small_blue_diamond: Impulsionamento da geração de dados nesse segmento do mercado (transações já existem na vida real, porém, não são capturadas);
 
-- Compartilhamento de risco com a rede, que se auto-avaliará (tal como fazem o passageiro do aplicativo e o motorista; comprador e vendedor nos sites de intermediação de venda etc.);
+:small_blue_diamond: Compartilhamento de risco com a rede, que se auto-avaliará (tal como fazem o passageiro do aplicativo e o motorista; comprador e vendedor nos sites de intermediação de venda etc.);
 
-- Segurança ao próximo estabelecimento, para decidir se pode vender "fiado" para pessoas de certa comunidade (Ex: o dentista atende uma emergência naquele bairro e saberá se tal paciente está pagando "em dia" o crediário do sapado e da papelaria (material escolar);
+:small_blue_diamond: Segurança ao próximo estabelecimento, para decidir se pode vender "fiado" para pessoas de certa comunidade (Ex: o dentista atende uma emergência naquele bairro e saberá se tal paciente está pagando "em dia" o crediário do sapado e da papelaria (material escolar);
 
-- Fidelização, já que o desbancarizado poderá usufruir dos mesmos benefícios dos demais (exceto para créditos maiores).
+:small_blue_diamond: Fidelização, já que o desbancarizado poderá usufruir dos mesmos benefícios dos demais (exceto para créditos maiores).
 
-:heavy_check_mark: **criei uma proposta de Cálculo de Score pré-Machine Learning**
+:white_check_mark: **criei uma proposta de Cálculo de Score pré-Machine Learning**
 ![image](imgs/MicrosoftTeams-image.png)
 
 ![image](imgs/MicrosoftTeams-image%20(1).png)
 
 
- :heavy_check_mark: **Fui um dos DBA do projeto**, administrando o banco de dados Oracle.
+ :white_check_mark: **Fui um dos DBA do projeto**, administrando o banco de dados ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white).
  
 # IV - APRENDIZADOS EFETIVOS
 
