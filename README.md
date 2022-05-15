@@ -136,14 +136,14 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 
 :wrench:  **Banco de Dados ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white).**
 
-**- MODELO-RELACIONAL DO BANCO DE DADOS**
+:orange_circle: ** MODELO-RELACIONAL DO BANCO DE DADOS**
 
 <p align="center">
 <img src="https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/MODELO-RELACIONAL-VALSCORE.jpg">
  </p>
  
 
-**- DIAGRAMA DE CLASSES DO BANCO DE DADOS**
+:orange_circle: ** DIAGRAMA DE CLASSES DO BANCO DE DADOS**
 
 <p align="center">
 <img src="https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/DIAGRAMA-DE-CLASSES-VALSCORE.jpg">
@@ -165,33 +165,33 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 
 :wrench:  **CSS framework**![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white): Componente de interface para sites e aplicações web (estilização e responsividade).
 
- ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)**: PRIVACIDADE E TRATAMENTO DE ERROS (LOGIN, ENVIO DA REQUISIÇÃO: ***session storage***)**
+ ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ** PRIVACIDADE E TRATAMENTO DE ERROS (LOGIN, ENVIO DA REQUISIÇÃO: ***session storage***)**
 
 <p align="center">
 <img src="https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/PRIVACIDADE%2BTRATAMENTO-ERROS-01.jpeg">
  </p>
 
- ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white): **PRIVACIDADE E TRATAMENTO DE ERROS (RESPOSTA À REQUISIÇÃO: ***session storage***)**
+ ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)  **PRIVACIDADE E TRATAMENTO DE ERROS (RESPOSTA À REQUISIÇÃO: ***session storage***)**
 
 <p align="center">
 <img src="https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/PRIVACIDADE%2BTRATAMENTO-ERROS-02.jpeg">
  </p>
 
-:wrench:  ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white): *open source framework Java*.
+:wrench:  ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)  *open source framework Java*.
 
-**- CÓDIGO: CONSULTA E ALTERA NO BANCO DE DADOS**
+:orange_circle: ** CÓDIGO: CONSULTA E ALTERA NO BANCO DE DADOS**
 ![Consulta-Altera](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/CONSULTA-ALTERA-DADOS.jpeg?raw=true"Consulta-Altera")
 
-**- CÓDIGO: IMPORTA ARQUIVOS CSV, TRATA DADOS E INSERE NO BANCO DE DADOS**
+:orange_circle: ** CÓDIGO: IMPORTA ARQUIVOS CSV, TRATA DADOS E INSERE NO BANCO DE DADOS**
 ![Importa-CSVl](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/IMPORTA-ARQUIVO-CODIGO.jpeg?raw=true"Importa-CSV")
 
-:wrench:  ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white): API Client para teste de CRUD, compartilhamento e documentação de APIs.
+:wrench:  ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)  API Client para teste de CRUD, compartilhamento e documentação de APIs.
 
-:wrench:  ![Insomnia](https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE): idem.
+:wrench:  ![Insomnia](https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE)  idem.
 
 ![image](https://user-images.githubusercontent.com/61089745/141985664-81df10dc-fd1d-44d1-b65f-06f8eb0ce5e4.png)
 
-- **Data Grip:** IDE de banco de dados que detecta bugs no código e sugere correções.
+:orange_circle: **Data Grip:** IDE de banco de dados que detecta bugs no código e sugere correções.
 
 :wrench:  IDE: ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white).
 
@@ -199,7 +199,7 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 
 Estudamos e deixamos de implementar:
 
-:wrench:  ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white):*Machine Learning* através de **redes neurais**;
+:wrench:  ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)  *Machine Learning* através de **redes neurais**;
 
 ![image](imgs/MicrosoftTeams-image4.png)
 
