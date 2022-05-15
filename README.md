@@ -24,7 +24,7 @@ SOBRE DESBANCARIZADOS
 [![image](imgs/MicrosoftTeams-image%20(3).png)](https://youtu.be/g0p9_XtqxcU)
 
 
-### I - RESUMO DO PROJETO 
+# I - RESUMO DO PROJETO 
 
 Empresa parceira SPC Brasil figurou como cliente.
 
@@ -34,20 +34,21 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 
 **DIFERENCIAIS DA PLATAFORMA:**
 
-- **MONETIZAÇÃO:** TODAS AS FUNÇÕES SÃO MONETIZÁVEIS;
+:arrow_right:  **MONETIZAÇÃO:** TODAS AS FUNÇÕES SÃO MONETIZÁVEIS;
 
-- **FIDELIZAÇÃO** pela **GAMIFICAÇÃO** POR TODO O AMBIENTE EM BUSCA DA FIDELIZAÇÃO;
+:arrow_right:  **FIDELIZAÇÃO** pela **GAMIFICAÇÃO** POR TODO O AMBIENTE EM BUSCA DA FIDELIZAÇÃO;
 
-- **EDUCAÇÃO FINANCEIRA:** É CAPAZ DE AJUDAR O USUÁRIO A SUPERAR-SE E MELHORAR DE VIDA;
-- **DESBANCARIZADOS:** TRAZ A REALIDADE DO COMÉRCIO JÁ EXISTENTE  PARA DENTRO DA PLATAFORMA;
+:arrow_right:  **EDUCAÇÃO FINANCEIRA:** É CAPAZ DE AJUDAR O USUÁRIO A SUPERAR-SE E MELHORAR DE VIDA;
+
+:arrow_right:  **DESBANCARIZADOS:** TRAZ A REALIDADE DO COMÉRCIO JÁ EXISTENTE  PARA DENTRO DA PLATAFORMA;
 
 
-#**ARQUITETURA**
+### **ARQUITETURA**
 ![Casos-de-Uso](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/DIAGRAMA-CASOS-DE-USO-v.2.jpg?raw=true"Casos-de-Uso")
 
 #### 1) Tela de Login + Tratamento de Erros: Cadastro.
 ![TELA ENTRADA](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA01-ENTRADA-01.jpeg?raw=true "Title")
-Usuário cadastra-se voluntariamente.
+<h4 align="center">(Usuário cadastra-se voluntariamente)</h4>
 
 #### 1.1) Tela de Login + Tratamento de Erros: Cadastro Correto.
 ![TELA ENTRADA](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA02-ENTRADA-02.jpeg?raw=true "Title")
@@ -55,22 +56,21 @@ Usuário cadastra-se voluntariamente.
 
 #### 1.2) Tela de Login + Tratamento de Erros: Controles.
 ![TELA ENTRADA](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA03-ENTRADA-03-TRATA-ERROS.jpeg?raw=true "Title")
-Controle e validação de e-mails/CPF.
+<h4 align="center">(Controle e validação de e-mails/CPF)</h4>
 
 #### 1.3) Tela de Login + Tratamento de Erros: CPF.
 ![TELA ENTRADA](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA05-ENTRADA-05-TRATA-ERROS.jpeg?raw=true "Title")
-Validação de CPF/Senha.
+<h4 align="center">(Validação de CPF/Senha)</h4>
 
 #### 2) Tela de Entrada: DASH BOARD.
 ![TELA ENTRADA](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA06-DASH.jpeg?raw=true "Title")
-Dash com as informações e histórico do Score do usuário.
+<h4 align="center">(Dash com as informações e histórico do Score do usuário)</h4>
 
 #### 3) Minha Conta - permissões de acesso aos meus dados:
 ![permissões](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/TELA-02-MINHA-CONTA-PERMISSOES.jpg?raw=true "Permissões")
-***Empoderamento do usuário***
-- Objetivo 01: Fidelização
+<h4 align="center">(Empoderamento do usuário)</h4>
 
-***Quanto mais ele permite, mais pontos ganha***
+- Objetivo 01: Fidelização (Quanto mais ele permite, mais pontos ganha).
 
 - Objetivo 02: Monetização, pela qualidade dos dados a serem consultados;
 
@@ -80,7 +80,7 @@ Dash com as informações e histórico do Score do usuário.
 
 #### 4) Meus Pontos - Minhas Trocas:
 ![Meus Pontos](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA07-MEUS-PONTOS.jpeg?raw=true "Title")
-***Vantagens ao Usuário***
+<h4 align="center">(Vantagens ao Usuário)</h4>
 
 - Objetivo 01: Fidelização;
 
@@ -90,7 +90,8 @@ Dash com as informações e histórico do Score do usuário.
 
 #### 5) Meus Pontos com HELPER - Educação Financeira:
 ![Educa_Finan](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA08-MEUS-PONTOS-COM-HELPER.jpeg?raw=true "Title")
-***Educação Financeira***
+
+<h4 align="center">(Troca pontos por cursos)</h4>
 
 - Objetivo 01: Fidelização;
 
@@ -100,7 +101,8 @@ Dash com as informações e histórico do Score do usuário.
 
 #### 6) DESBANCARIZADOS - Criação de movimentos para microcrédito:
 ![Desbancarizados](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA09-GERENCIADOR.jpeg?raw=true"Desbancarizados")
-***Certificação cruzada (estabelecimento e consumidores) para capturar dados atualmente inexistentes, fortalecer laços nessa faixa de comércio, possibilitar microcrédito em estabelecimentos nesses locais***
+
+<h4 align="center">(Certificação cruzada (estabelecimento e consumidores) para capturar dados atualmente inexistentes, fortalecer laços nessa faixa de renda, possibilitar microcrédito em estabelecimentos nesses locais)</h4>
 
 - Objetivo 01: Atração pela eliminação de planilha e carnês em papel;
 
@@ -116,23 +118,23 @@ Dash com as informações e histórico do Score do usuário.
 #### 7) PRIVACIDADE & LGPD:
 ![PRIVACIDADE](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA10-MEUS-PAGAMENTOS-ORACLE.jpeg?raw=true"Privacidade")
 
-***Somente dados do CPF autenticado no Login***
+<h4 align="center">(Somente dados do CPF autenticado no Login)</h4>
 
 #### 7.1) PRIVACIDADE & LGPD & Banco de Dados Oracle:
 ![PRIVACIDADE](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA10-MEUS-PAGAMENTOS.jpeg?raw=true"Privacidade")
-***CPF: chave-mestra dentro do código***
+<h4 align="center">(CPF: chave-mestra dentro do código)</h4>
 
 #### 8) EDUCAÇÃO FINANCEIRA: MATÉRIAS/CURSOS SEGUNDO O MOMENTO FINANCEIRO DO USUÁRIO:
 ![HELPER](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA11-HELPER-MATERIAS.jpeg?raw=true"Helper")
-***CPF: chave-mestra dentro do código***
+<h4 align="center">(Gamificação: estímulo do usuário)</h4>
 
 #### 9) CONTROLE DE ACESSO AOS DADOS (DO E PELO USUÁRIO):
 ![MEUS-DADOS](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA12-MEUS-DADOS-PRIVACIDADE-2.jpeg?raw=true"MEUS-DADOS")
-***Poder ao usuário e recompensas pelos seus dados***
+<h4 align="center">(Poder ao usuário e recompensas pelos seus dados)</h4>
 
-### II - TECNOLOGIAS ADOTADAS NA SOLUÇÃO 
+# II - TECNOLOGIAS ADOTADAS NA SOLUÇÃO 
 
-- **Banco de Dados Oracle.**
+:wrench:  **Banco de Dados Oracle.**
 
 **- MODELO-RELACIONAL DO BANCO DE DADOS**
 ![Modelo-Relacional](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/MODELO-RELACIONAL-VALSCORE.jpg?raw=true"Casos-de-Uso")
@@ -140,16 +142,16 @@ Dash com as informações e histórico do Score do usuário.
 **- DIAGRAMA DE CLASSES DO BANCO DE DADOS**
 ![Modelo-Relacional](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/DIAGRAMA-DE-CLASSES-VALSCORE.jpg?raw=true"Casos-de-Uso")
 
-- linguagem: ***Java*** 
-- **Angular:** *framework Java* ou plataforma (há divergêcias conceituais) para aplicações web (*front-end*) baseado em TypeScript.
+:wrench:  linguagem: ***Java*** 
+:wrench:  **Angular:** *framework Java* ou plataforma (há divergêcias conceituais) para aplicações web (*front-end*) baseado em TypeScript.
 
 ![MóduloAngular](https://user-images.githubusercontent.com/61089745/141664849-ddac0cb9-7e06-4526-8e5a-562b2aee8463.PNG)
 
-- **Type Script:**  linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web. Usamos o javascript para aprimorar nossa aplicação web com foco nos cálculos, e estilização dos CARDS e DASHBOARD;
+:wrench:  **Type Script:**  linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web. Usamos o javascript para aprimorar nossa aplicação web com foco nos cálculos, e estilização dos CARDS e DASHBOARD;
 
-- **CSS, HTML:** Linguagens de marcação utilizada na construção de páginas na Web e juntamente aplicamos o CSS para dar estilo;
+:wrench:  **CSS, HTML:** Linguagens de marcação utilizada na construção de páginas na Web e juntamente aplicamos o CSS para dar estilo;
 
-- **CSS framework Bootstrap:** Componente de interface para sites e aplicações web (estilização e responsividade).
+:wrench:  **CSS framework Bootstrap:** Componente de interface para sites e aplicações web (estilização e responsividade).
 
 **- ANGULAR: PRIVACIDADE E TRATAMENTO DE ERROS (LOGIN, ENVIO DA REQUISIÇÃO: ***session storage***)**
 ![PRIVACIDADE](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/PRIVACIDADE%2BTRATAMENTO-ERROS-01.jpeg?raw=true"session-storage")
@@ -157,7 +159,7 @@ Dash com as informações e histórico do Score do usuário.
 **- ANGULAR: PRIVACIDADE E TRATAMENTO DE ERROS (RESPOSTA À REQUISIÇÃO: ***session storage***)**
 ![PRIVACIDADE](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/PRIVACIDADE%2BTRATAMENTO-ERROS-02.jpeg?raw=true"session-storage")
 
-- **SpringBoot:** *open source framework Java*.
+:wrench:  **SpringBoot:** *open source framework Java*.
 
 **- CÓDIGO: CONSULTA E ALTERA NO BANCO DE DADOS**
 ![Consulta-Altera](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/CONSULTA-ALTERA-DADOS.jpeg?raw=true"Consulta-Altera")
@@ -165,26 +167,26 @@ Dash com as informações e histórico do Score do usuário.
 **- CÓDIGO: IMPORTA ARQUIVOS CSV, TRATA DADOS E INSERE NO BANCO DE DADOS**
 ![Importa-CSVl](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/IMPORTA-ARQUIVO-CODIGO.jpeg?raw=true"Importa-CSV")
 
-- **Postman:** API Client para teste de CRUD, compartilhamento e documentação de APIs.
+:wrench:  **Postman:** API Client para teste de CRUD, compartilhamento e documentação de APIs.
 
-- **Insomnia:** idem.
+:wrench:  **Insomnia:** idem.
 
 ![image](https://user-images.githubusercontent.com/61089745/141985664-81df10dc-fd1d-44d1-b65f-06f8eb0ce5e4.png)
 
 - **Data Grip:** IDE de banco de dados que detecta bugs no código e sugere correções.
 
-- IDE: **Visual Code:**.
+:wrench:  IDE: **Visual Code:**.
 
-- Metodologia *Scrum* e Ágil;
+:wrench:  Metodologia *Scrum* e Ágil;
 
 Estudamos e deixamos de implementar:
-- **TensorFlow:**Machine Learning através de **redes neurais**;
+:wrench:  **TensorFlow:**Machine Learning através de **redes neurais**;
 
 ![image](imgs/MicrosoftTeams-image4.png)
 
 
 
-### III - CONTRIBUIÇÕES INDIVIDUAS/PESSOAIS
+# III - CONTRIBUIÇÕES INDIVIDUAS/PESSOAIS
 - Atuei como Product Owner.
 - **Desenvolvi toda alinha de negócios da plafaforma**, buscando monetização, fidelização pela gamificação e ingresso no mercado dos DESBANCARIZADOS, especialmente:
 
@@ -223,7 +225,7 @@ Estudamos e deixamos de implementar:
 
  **Fui um dos DBA do projeto**, administrando o banco de dados Oracle.
  
-### IV - APRENDIZADOS EFETIVOS
+# IV - APRENDIZADOS EFETIVOS
 
 - **Desvendei o mercado dos DESBANCARIZADO:** cerca de 36 milhões de pessoas que cometem atos de comércio e de consumo no país e geralmente tratados como **economicamente invisíveis** (*off-grid*), **podem tornar-se tomadores de microcrédito com o estímulo de *surplus* local**, em suas comunicades.
 Além de revelar e incluir pessoas, a aplicação pode **viabilizar crédito para quem precisa e não é atendido pelos chamados "bancões"**.
