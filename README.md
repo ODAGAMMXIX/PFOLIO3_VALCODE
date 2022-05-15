@@ -42,7 +42,7 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 :arrow_right:  **DESBANCARIZADOS:** TRAZ A REALIDADE DO COMÉRCIO JÁ EXISTENTE  PARA DENTRO DA PLATAFORMA;
 
 
-### **ARQUITETURA**
+<h4 align="center">[Arquitetura da Aplicação]</h4>
 ![Casos-de-Uso](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/DIAGRAMA-CASOS-DE-USO-v.2.jpg?raw=true"Casos-de-Uso")
 
 #### 1) Tela de Login + Tratamento de Erros: Cadastro.
@@ -119,7 +119,7 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 
 <h4 align="center">(Somente dados do CPF autenticado no Login)</h4>
 
-#### 7.1) PRIVACIDADE & Banco de Dados Oracle:
+#### 7.1) PRIVACIDADE & Banco de Dados ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white):
 ![PRIVACIDADE](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA10-MEUS-PAGAMENTOS.jpeg?raw=true"Privacidade")
 <h4 align="center">(CPF: chave-mestra internamente do código)</h4>
 
@@ -133,7 +133,7 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 
 # II - TECNOLOGIAS ADOTADAS NA SOLUÇÃO 
 
-:wrench:  **Banco de Dados Oracle.**
+:wrench:  **Banco de Dados ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white).**
 
 **- MODELO-RELACIONAL DO BANCO DE DADOS**
 
@@ -149,34 +149,34 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
  </p>
  
 
-:wrench:  linguagem: ***Java*** 
+:wrench:  linguagem: ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 
-:wrench:  **Angular:** *framework Java* ou plataforma (há divergêcias conceituais) para aplicações web (*front-end*) baseado em TypeScript.
+:wrench:  **Angular:** *framework* ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ou plataforma (há divergêcias conceituais) para aplicações web (*front-end*) baseado em TypeScript.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141664849-ddac0cb9-7e06-4526-8e5a-562b2aee8463.PNG">
  </p>
  
 
-:wrench:  **Type Script:**  linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web. Usamos o javascript para aprimorar nossa aplicação web com foco nos cálculos, e estilização dos CARDS e DASHBOARD;
+:wrench:  ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)  Linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) é uma das três principais tecnologias da World Wide Web. Usamos o ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) para aprimorar nossa aplicação web com foco nos cálculos, e estilização dos CARDS e DASHBOARD;
 
 :wrench:  **CSS, HTML:** Linguagens de marcação utilizada na construção de páginas na Web e juntamente aplicamos o CSS para dar estilo;
 
-:wrench:  **CSS framework Bootstrap:** Componente de interface para sites e aplicações web (estilização e responsividade).
+:wrench:  **CSS framework**![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white): Componente de interface para sites e aplicações web (estilização e responsividade).
 
-**- ANGULAR: PRIVACIDADE E TRATAMENTO DE ERROS (LOGIN, ENVIO DA REQUISIÇÃO: ***session storage***)**
+- ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)**: PRIVACIDADE E TRATAMENTO DE ERROS (LOGIN, ENVIO DA REQUISIÇÃO: ***session storage***)**
 
 <p align="center">
 <img src="https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/PRIVACIDADE%2BTRATAMENTO-ERROS-01.jpeg">
  </p>
 
-**- ANGULAR: PRIVACIDADE E TRATAMENTO DE ERROS (RESPOSTA À REQUISIÇÃO: ***session storage***)**
+- ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white): **PRIVACIDADE E TRATAMENTO DE ERROS (RESPOSTA À REQUISIÇÃO: ***session storage***)**
 
 <p align="center">
 <img src="https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/PRIVACIDADE%2BTRATAMENTO-ERROS-02.jpeg">
  </p>
 
-:wrench:  **SpringBoot:** *open source framework Java*.
+:wrench:  ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white): *open source framework Java*.
 
 **- CÓDIGO: CONSULTA E ALTERA NO BANCO DE DADOS**
 ![Consulta-Altera](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/CONSULTA-ALTERA-DADOS.jpeg?raw=true"Consulta-Altera")
@@ -184,20 +184,20 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 **- CÓDIGO: IMPORTA ARQUIVOS CSV, TRATA DADOS E INSERE NO BANCO DE DADOS**
 ![Importa-CSVl](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/IMPORTA-ARQUIVO-CODIGO.jpeg?raw=true"Importa-CSV")
 
-:wrench:  **Postman:** API Client para teste de CRUD, compartilhamento e documentação de APIs.
+:wrench:  ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white): API Client para teste de CRUD, compartilhamento e documentação de APIs.
 
-:wrench:  **Insomnia:** idem.
+:wrench:  ![Insomnia](https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE): idem.
 
 ![image](https://user-images.githubusercontent.com/61089745/141985664-81df10dc-fd1d-44d1-b65f-06f8eb0ce5e4.png)
 
 - **Data Grip:** IDE de banco de dados que detecta bugs no código e sugere correções.
 
-:wrench:  IDE: **Visual Code:**.
+:wrench:  IDE: ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white).
 
 :wrench:  Metodologia *Scrum* e Ágil;
 
 Estudamos e deixamos de implementar:
-:wrench:  **TensorFlow:**Machine Learning através de **redes neurais**;
+:wrench:  ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white):**Machine Learning através de **redes neurais**;
 
 ![image](imgs/MicrosoftTeams-image4.png)
 
