@@ -69,65 +69,65 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 ![permissões](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/TELA-02-MINHA-CONTA-PERMISSOES.jpg?raw=true "Permissões")
 <h4 align="center">(Empoderamento do usuário)</h4>
 
-- Objetivo 01: Fidelização (Quanto mais ele permite, mais pontos ganha).
+- ***Objetivo 01:*** Fidelização (Quanto mais ele permite, mais pontos ganha).
 
-- Objetivo 02: Monetização, pela qualidade dos dados a serem consultados;
+- ***Objetivo 02:*** Monetização, pela qualidade dos dados a serem consultados;
 
-- Objetivo 03: Fidelização do CONSULENTE/CONCEDENTE de crédito;
+- ***Objetivo 03:*** Fidelização do CONSULENTE/CONCEDENTE de crédito;
 
-- Objetivo 04: Gamificação para o usuário.
+- ***Objetivo 04:*** Gamificação para o usuário.
 
 #### 4) Meus Pontos - Minhas Trocas:
 ![Meus Pontos](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA07-MEUS-PONTOS.jpeg?raw=true "Title")
 <h4 align="center">(Vantagens ao Usuário)</h4>
 
-- Objetivo 01: Fidelização;
+- ***Objetivo 01:*** Fidelização;
 
-- Objetivo 02: Gamificação;
+- ***Objetivo 02:*** Gamificação;
 
-- Objetivo 03: Monetização, podendo conectar aqui um programa de fidelidade existente.
+- ***Objetivo 03:*** Monetização, podendo conectar aqui um programa de fidelidade existente.
 
 #### 5) Meus Pontos com HELPER - Educação Financeira:
 ![Educa_Finan](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA08-MEUS-PONTOS-COM-HELPER.jpeg?raw=true "Title")
 
 <h4 align="center">(Troca pontos por cursos)</h4>
 
-- Objetivo 01: Fidelização;
+- ***Objetivo 01:*** Fidelização;
 
-- Objetivo 02: Gamificação;
+- ***Objetivo 02:*** Gamificação;
 
-- Objetivo 03: Monetização, podendo conectar aqui uma legaltech para intermediar acordos, "feirão" para limpar nome etc.
+- ***Objetivo 03:*** Monetização, podendo conectar aqui uma legaltech para intermediar acordos, "feirão" para limpar nome etc.
 
 #### 6) DESBANCARIZADOS - Criação de movimentos para microcrédito:
 ![Desbancarizados](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA09-GERENCIADOR.jpeg?raw=true"Desbancarizados")
 
-<h4 align="center">(Certificação cruzada (estabelecimento e consumidores) para capturar dados atualmente inexistentes, fortalecer laços nessa faixa de renda, possibilitar microcrédito em estabelecimentos nesses locais)</h4>
+<h4 align="center">[Certificação cruzada (estabelecimento e consumidores) para capturar dados atualmente inexistentes, fortalecer laços nessa faixa de renda, possibilitar microcrédito em estabelecimentos nesses locais]</h4>
 
-- Objetivo 01: Atração pela eliminação de planilha e carnês em papel;
+- ***Objetivo 01:*** Atração pela eliminação de planilha e carnês em papel;
 
-- Objetivo 02: Impulsionar a geração de dados nesse segmento do mercado; essas transações já existem na vida real, porém, não são capturadas;
+- ***Objetivo 02:*** Impulsionar a geração de dados nesse segmento do mercado; essas transações já existem na vida real, porém, não são capturadas;
 
-- Objetivo 03: Compartilhar risco com a rede, que se auto-avaliará (tal como fazem o passageiro do aplicativo e o motorista; comprador e vendedor nos sites de intermediação de venda etc.);
+- ***Objetivo 03:*** Compartilhar risco com a rede, que se auto-avaliará (tal como fazem o passageiro do aplicativo e o motorista; comprador e vendedor nos sites de intermediação de venda etc.);
 
-- Objetivo 04:  segurança ao próximo estabelecimento, para decidir se pode vender "fiado" para pessoas de certa comunidade (Ex: o dentista atende uma emergência naquele bairro e saberá se tal paciente está pagando "em dia" o crediário do sapado e da papelaria (material escolar);
+- ***Objetivo 04:***  segurança ao próximo estabelecimento, para decidir se pode vender "fiado" para pessoas de certa comunidade (Ex: o dentista atende uma emergência naquele bairro e saberá se tal paciente está pagando "em dia" o crediário do sapado e da papelaria (material escolar);
 
-- Objetivo 05: Fidelização, já que o desbancarizado poderá usufruir dos mesmos benefícios dos demais (exceto para créditos maiores).
+- ***Objetivo 05:*** Fidelização, já que o desbancarizado poderá usufruir dos mesmos benefícios dos demais (exceto para créditos maiores).
 
 
-#### 7) PRIVACIDADE & LGPD:
+#### 7) PRIVACIDADE:
 ![PRIVACIDADE](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA10-MEUS-PAGAMENTOS-ORACLE.jpeg?raw=true"Privacidade")
 
 <h4 align="center">(Somente dados do CPF autenticado no Login)</h4>
 
-#### 7.1) PRIVACIDADE & LGPD & Banco de Dados Oracle:
+#### 7.1) PRIVACIDADE & Banco de Dados Oracle:
 ![PRIVACIDADE](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA10-MEUS-PAGAMENTOS.jpeg?raw=true"Privacidade")
-<h4 align="center">(CPF: chave-mestra dentro do código)</h4>
+<h4 align="center">(CPF: chave-mestra internamente do código)</h4>
 
 #### 8) EDUCAÇÃO FINANCEIRA: MATÉRIAS/CURSOS SEGUNDO O MOMENTO FINANCEIRO DO USUÁRIO:
 ![HELPER](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA11-HELPER-MATERIAS.jpeg?raw=true"Helper")
 <h4 align="center">(Gamificação: estímulo do usuário)</h4>
 
-#### 9) CONTROLE DE ACESSO AOS DADOS (DO E PELO USUÁRIO):
+#### 9) CONTROLE DE ACESSO AOS DADOS (DO E PELO USUÁRIO) & LGPD:
 ![MEUS-DADOS](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA12-MEUS-DADOS-PRIVACIDADE-2.jpeg?raw=true"MEUS-DADOS")
 <h4 align="center">(Poder ao usuário e recompensas pelos seus dados)</h4>
 
@@ -139,7 +139,11 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 ![Modelo-Relacional](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/MODELO-RELACIONAL-VALSCORE.jpg?raw=true"Casos-de-Uso")
 
 **- DIAGRAMA DE CLASSES DO BANCO DE DADOS**
-![Modelo-Relacional](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/DIAGRAMA-DE-CLASSES-VALSCORE.jpg?raw=true"Casos-de-Uso")
+
+<p align="center">
+<img src="https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/DIAGRAMA-DE-CLASSES-VALSCORE.jpg">
+ </p>
+ 
 
 :wrench:  linguagem: ***Java*** 
 :wrench:  **Angular:** *framework Java* ou plataforma (há divergêcias conceituais) para aplicações web (*front-end*) baseado em TypeScript.
