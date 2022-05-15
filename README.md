@@ -42,7 +42,8 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 :arrow_right:  **DESBANCARIZADOS:** TRAZ A REALIDADE DO COMÉRCIO JÁ EXISTENTE  PARA DENTRO DA PLATAFORMA;
 
 
-<h4 align="center">[Arquitetura da Aplicação]</h4>
+<h4 align="center">Arquitetura da Aplicação</h4>
+
 ![Casos-de-Uso](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/DIAGRAMA-CASOS-DE-USO-v.2.jpg?raw=true"Casos-de-Uso")
 
 #### 1) Tela de Login + Tratamento de Erros: Cadastro.
