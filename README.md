@@ -150,9 +150,13 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
  
 
 :wrench:  linguagem: ***Java*** 
+
 :wrench:  **Angular:** *framework Java* ou plataforma (há divergêcias conceituais) para aplicações web (*front-end*) baseado em TypeScript.
 
-![MóduloAngular](https://user-images.githubusercontent.com/61089745/141664849-ddac0cb9-7e06-4526-8e5a-562b2aee8463.PNG)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/61089745/141664849-ddac0cb9-7e06-4526-8e5a-562b2aee8463.PNG">
+ </p>
+ 
 
 :wrench:  **Type Script:**  linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web. Usamos o javascript para aprimorar nossa aplicação web com foco nos cálculos, e estilização dos CARDS e DASHBOARD;
 
@@ -161,10 +165,16 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 :wrench:  **CSS framework Bootstrap:** Componente de interface para sites e aplicações web (estilização e responsividade).
 
 **- ANGULAR: PRIVACIDADE E TRATAMENTO DE ERROS (LOGIN, ENVIO DA REQUISIÇÃO: ***session storage***)**
-![PRIVACIDADE](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/PRIVACIDADE%2BTRATAMENTO-ERROS-01.jpeg?raw=true"session-storage")
+
+<p align="center">
+<img src="https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/PRIVACIDADE%2BTRATAMENTO-ERROS-01.jpeg">
+ </p>
 
 **- ANGULAR: PRIVACIDADE E TRATAMENTO DE ERROS (RESPOSTA À REQUISIÇÃO: ***session storage***)**
-![PRIVACIDADE](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/PRIVACIDADE%2BTRATAMENTO-ERROS-02.jpeg?raw=true"session-storage")
+
+<p align="center">
+<img src="https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/PRIVACIDADE%2BTRATAMENTO-ERROS-02.jpeg">
+ </p>
 
 :wrench:  **SpringBoot:** *open source framework Java*.
 
