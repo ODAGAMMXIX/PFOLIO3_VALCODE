@@ -134,16 +134,16 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 
 # II - TECNOLOGIAS ADOTADAS NA SOLUÇÃO 
 
-:wrench:  **Banco de Dados ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white).**
+:wrench:  **Banco de Dados** ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white).
 
-:orange_circle: ** MODELO-RELACIONAL DO BANCO DE DADOS**
+:orange_circle: **MODELO-RELACIONAL DO BANCO DE DADOS**
 
 <p align="center">
 <img src="https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/MODELO-RELACIONAL-VALSCORE.jpg">
  </p>
  
 
-:orange_circle: ** DIAGRAMA DE CLASSES DO BANCO DE DADOS**
+:orange_circle: **DIAGRAMA DE CLASSES DO BANCO DE DADOS**
 
 <p align="center">
 <img src="https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/DIAGRAMA-DE-CLASSES-VALSCORE.jpg">
@@ -165,7 +165,7 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 
 :wrench:  **CSS framework**![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white): Componente de interface para sites e aplicações web (estilização e responsividade).
 
- ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ** PRIVACIDADE E TRATAMENTO DE ERROS (LOGIN, ENVIO DA REQUISIÇÃO: ***session storage***)**
+ ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) **PRIVACIDADE E TRATAMENTO DE ERROS (LOGIN, ENVIO DA REQUISIÇÃO: ***session storage***)**
 
 <p align="center">
 <img src="https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/PRIVACIDADE%2BTRATAMENTO-ERROS-01.jpeg">
@@ -179,10 +179,10 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 
 :wrench:  ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)  *open source framework Java*.
 
-:orange_circle: ** CÓDIGO: CONSULTA E ALTERA NO BANCO DE DADOS**
+:orange_circle: **CÓDIGO: CONSULTA E ALTERA NO BANCO DE DADOS**
 ![Consulta-Altera](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/CONSULTA-ALTERA-DADOS.jpeg?raw=true"Consulta-Altera")
 
-:orange_circle: ** CÓDIGO: IMPORTA ARQUIVOS CSV, TRATA DADOS E INSERE NO BANCO DE DADOS**
+:orange_circle: **CÓDIGO: IMPORTA ARQUIVOS CSV, TRATA DADOS E INSERE NO BANCO DE DADOS**
 ![Importa-CSVl](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/IMPORTA-ARQUIVO-CODIGO.jpeg?raw=true"Importa-CSV")
 
 :wrench:  ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)  API Client para teste de CRUD, compartilhamento e documentação de APIs.
