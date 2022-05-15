@@ -23,7 +23,7 @@
 <p align="center"> 
  ['vídeo da aplicação'](https://youtu.be/w2c7l4HPcSs)
 </p>
-<h1 align="center">['vídeo da aplicação'](https://youtu.be/w2c7l4HPcSs)</h1>
+<h1 align="center">['vídeo da aplicação']</h1>(https://youtu.be/w2c7l4HPcSs)
 
 <h5 align="center">[BÔNUS SOBRE DESBANCARIZADOS]</h5>
 
