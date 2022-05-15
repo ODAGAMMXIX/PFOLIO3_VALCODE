@@ -207,9 +207,9 @@ Estudamos e deixamos de implementar:
 
 # III - CONTRIBUIÇÕES INDIVIDUAS/PESSOAIS
 
-:white_check_mark: Atuei como *Product Owner*.
+:axe: Atuei como *Product Owner*.
 
-:white_check_mark: **Desenvolvi toda a linha de negócios da plafaforma**, buscando monetização, fidelização pela gamificação e ingresso no mercado dos **DESBANCARIZADOS**, especialmente:
+:axe: **Desenvolvi toda a linha de negócios da plafaforma**, buscando monetização, fidelização pela gamificação e ingresso no mercado dos **DESBANCARIZADOS**, especialmente:
 
  <h4 align="center">"MINHA Conta, MEUS dados"</h4>
  
@@ -239,13 +239,13 @@ Estudamos e deixamos de implementar:
 
 :small_blue_diamond: Fidelização, já que o desbancarizado poderá usufruir dos mesmos benefícios dos demais (exceto para créditos maiores).
 
-:white_check_mark: **criei uma proposta de Cálculo de Score pré-Machine Learning**
+:axe: **criei uma proposta de Cálculo de Score pré-Machine Learning**
 ![image](imgs/MicrosoftTeams-image.png)
 
 ![image](imgs/MicrosoftTeams-image%20(1).png)
 
 
- :white_check_mark: **Fui um dos DBA do projeto**, administrando o banco de dados ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white).
+:axe::axe: **Fui um dos DBA do projeto**, administrando o banco de dados ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white).
  
 # IV - APRENDIZADOS EFETIVOS
 
