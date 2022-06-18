@@ -18,9 +18,12 @@
 
 [![image](imgs/MicrosoftTeams-image%20(2).png)](https://youtu.be/w2c7l4HPcSs)
 
+<h5 align="center">(Vídeo)</h5>
+
 <h5 align="center">[BÔNUS SOBRE DESBANCARIZADOS]</h5>
 
 [![image](imgs/MicrosoftTeams-image%20(3).png)](https://youtu.be/g0p9_XtqxcU)
+<h5 align="center">(Vídeo)</h5>
 
 
 # I - RESUMO DO PROJETO 
@@ -44,31 +47,58 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 
 <h4 align="center">Arquitetura da Aplicação</h4>
 
-![Casos-de-Uso](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/DIAGRAMA-CASOS-DE-USO-v.2.jpg?raw=true"Casos-de-Uso")
+ <details><summary> Caso de uso.</summary>
+<p align="center">
+ <img src="https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/DIAGRAMA-CASOS-DE-USO-v.2.jpg?raw=true"Casos-de-Uso">
+</p>
+ </details>
 
-#### 1) Tela de Login + Tratamento de Erros: Cadastro.
-![TELA ENTRADA](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA01-ENTRADA-01.jpeg?raw=true "Title")
-<h4 align="center">(Usuário cadastra-se voluntariamente)</h4>
+                  
+ <details><summary> 1) Tela de Login + Tratamento de Erros: Cadastro.</summary>
+<p align="center">
+ <img src="https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA01-ENTRADA-01.jpeg?raw=true "Title"">                                  <h4 align="center">(Usuário cadastra-se voluntariamente)</h4>
+</p>
+ </details>
 
-#### 1.1) Tela de Login + Tratamento de Erros: Cadastro Correto.
-![TELA ENTRADA](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA02-ENTRADA-02.jpeg?raw=true "Title")
 
+                                                                                                                                        
+                                                                                                                                          
+ <details><summary> 1.1) Tela de Login + Tratamento de Erros: Cadastro Correto.</summary>
+<p align="center">
+ <img src="https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA02-ENTRADA-02.jpeg?raw=true "Title"">                                 
+</p>
+ </details>                                                                                        
+                  
+                  
+ <details><summary> 1.2) Tela de Login + Tratamento de Erros: Controles.</summary>
+<p align="center">
+ <img src="https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA03-ENTRADA-03-TRATA-ERROS.jpeg?raw=true "Title"">                                  <h4 align="center">(Controle e validação de e-mails/CPF)</h4>
+</p>
+ </details>
+ 
 
-#### 1.2) Tela de Login + Tratamento de Erros: Controles.
-![TELA ENTRADA](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA03-ENTRADA-03-TRATA-ERROS.jpeg?raw=true "Title")
-<h4 align="center">(Controle e validação de e-mails/CPF)</h4>
+                  
+ <details><summary> 1.3) Tela de Login + Tratamento de Erros: CPF.</summary>
+<p align="center">
+ <img src="https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA05-ENTRADA-05-TRATA-ERROS.jpeg?raw=true "Title"">                                  <h4 align="center">(Validação de CPF/Senha)</h4>
+</p>
+ </details>
 
-#### 1.3) Tela de Login + Tratamento de Erros: CPF.
-![TELA ENTRADA](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA05-ENTRADA-05-TRATA-ERROS.jpeg?raw=true "Title")
-<h4 align="center">(Validação de CPF/Senha)</h4>
+                  
+  <details><summary> 2) Tela de Entrada: DASH BOARD.</summary>
+<p align="center">
+ <img src="https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA06-DASH.jpeg?raw=true "Title"">                                 
+ <h4 align="center">(Dash com as informações e histórico do Score do usuário)</h4>
+</p>
+ </details>
 
-#### 2) Tela de Entrada: DASH BOARD.
-![TELA ENTRADA](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA06-DASH.jpeg?raw=true "Title")
-<h4 align="center">(Dash com as informações e histórico do Score do usuário)</h4>
-
-#### 3) Minha Conta - permissões de acesso aos meus dados:
-![permissões](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/TELA-02-MINHA-CONTA-PERMISSOES.jpg?raw=true "Permissões")
-<h4 align="center">(Empoderamento do usuário)</h4>
+                
+  <details><summary> 3) Minha Conta - permissões de acesso aos meus dados:</summary>
+<p align="center">
+ <img src="https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/TELA-02-MINHA-CONTA-PERMISSOES.jpg?raw=true "Permissões"">                                 
+ <h4 align="center">(Empoderamento do usuário)</h4>
+</p>
+ </details>
 
 - ***Objetivo 01:*** Fidelização (Quanto mais ele permite, mais pontos ganha).
 
@@ -78,9 +108,13 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 
 - ***Objetivo 04:*** Gamificação para o usuário.
 
-#### 4) Meus Pontos - Minhas Trocas:
-![Meus Pontos](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA07-MEUS-PONTOS.jpeg?raw=true "Title")
-<h4 align="center">(Vantagens ao Usuário)</h4>
+                  
+<details><summary> 4) Meus Pontos - Minhas Trocas:</summary>
+<p align="center">
+ <img src="https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA07-MEUS-PONTOS.jpeg?raw=true "Title"">                               
+ <h4 align="center">(Vantagens ao Usuário)</h4>
+</p>
+ </details>
 
 - ***Objetivo 01:*** Fidelização;
 
@@ -88,10 +122,13 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 
 - ***Objetivo 03:*** Monetização, podendo conectar aqui um programa de fidelidade existente.
 
-#### 5) Meus Pontos com HELPER - Educação Financeira:
-![Educa_Finan](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA08-MEUS-PONTOS-COM-HELPER.jpeg?raw=true "Title")
-
-<h4 align="center">(Troca pontos por cursos)</h4>
+                  
+<details><summary> 5) Meus Pontos com HELPER - Educação Financeira:</summary>
+<p align="center">
+ <img src="https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA08-MEUS-PONTOS-COM-HELPER.jpeg?raw=true "Title"">                     
+ <h4 align="center">(Troca pontos por cursos)</h4>
+</p>
+ </details>
 
 - ***Objetivo 01:*** Fidelização;
 
@@ -99,11 +136,15 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 
 - ***Objetivo 03:*** Monetização, podendo conectar aqui uma legaltech para intermediar acordos, "feirão" para limpar nome etc.
 
-#### 6) DESBANCARIZADOS - Criação de movimentos para microcrédito:
-![Desbancarizados](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA09-GERENCIADOR.jpeg?raw=true"Desbancarizados")
 
-<h4 align="center">[Certificação cruzada (estabelecimento e consumidores) para capturar dados atualmente inexistentes, fortalecer laços nessa faixa de renda, possibilitar microcrédito em estabelecimentos nesses locais]</h4>
+<details><summary> 6) DESBANCARIZADOS - Criação de movimentos para microcrédito:</summary>
+<p align="center">
+ <img src="https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA09-GERENCIADOR.jpeg?raw=true"Desbancarizados">                     
+ <h4 align="center">[Certificação cruzada (estabelecimento e consumidores) para capturar dados atualmente inexistentes, fortalecer laços nessa faixa de renda, possibilitar microcrédito em estabelecimentos nesses locais]</h4>
+</p>
+</details>
 
+                  
 - ***Objetivo 01:*** Atração pela eliminação de planilha e carnês em papel;
 
 - ***Objetivo 02:*** Impulsionar a geração de dados nesse segmento do mercado; essas transações já existem na vida real, porém, não são capturadas;
@@ -115,49 +156,69 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 - ***Objetivo 05:*** Fidelização, já que o desbancarizado poderá usufruir dos mesmos benefícios dos demais (exceto para créditos maiores).
 
 
-#### 7) PRIVACIDADE:
-![PRIVACIDADE](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA10-MEUS-PAGAMENTOS-ORACLE.jpeg?raw=true"Privacidade")
 
-<h4 align="center">(Somente dados do CPF autenticado no Login)</h4>
+<details><summary> 7) PRIVACIDADE.</summary>
+<p align="center">
+ <img src="https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA10-MEUS-PAGAMENTOS-ORACLE.jpeg?raw=true"Privacidade"">               
+ <h4 align="center">(Somente dados do CPF autenticado no Login)</h4>
+</p>
+</details>
 
-#### 7.1) PRIVACIDADE & Banco de Dados ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white):
-![PRIVACIDADE](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA10-MEUS-PAGAMENTOS.jpeg?raw=true"Privacidade")
-<h4 align="center">(CPF: chave-mestra internamente do código)</h4>
+7.1) PRIVACIDADE & Banco de Dados ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white):
 
-#### 8) EDUCAÇÃO FINANCEIRA: MATÉRIAS/CURSOS SEGUNDO O MOMENTO FINANCEIRO DO USUÁRIO:
-![HELPER](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA11-HELPER-MATERIAS.jpeg?raw=true"Helper")
-<h4 align="center">(Gamificação: estímulo do usuário)</h4>
+<details><summary> Oracle:</summary>
+<p align="center">
+ <img src="https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA10-MEUS-PAGAMENTOS.jpeg?raw=true"Privacidade">               
+ <h4 align="center">(CPF: chave-mestra internamente do código)</h4>
+</p>
+</details>
 
-#### 9) CONTROLE DE ACESSO AOS DADOS (DO E PELO USUÁRIO) & LGPD:
-![MEUS-DADOS](https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA12-MEUS-DADOS-PRIVACIDADE-2.jpeg?raw=true"MEUS-DADOS")
-<h4 align="center">(Poder ao usuário e recompensas pelos seus dados)</h4>
+           
+<details><summary> 8) EDUCAÇÃO FINANCEIRA: MATÉRIAS/CURSOS SEGUNDO O MOMENTO FINANCEIRO DO USUÁRIO:</summary>
+<p align="center">
+ <img src="https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA11-HELPER-MATERIAS.jpeg?raw=true"Helper"">               
+ <h4 align="center">(Gamificação: estímulo do usuário)</h4>
+</p>
+</details>
+
+                  
+<details><summary> 9) CONTROLE DE ACESSO AOS DADOS (DO E PELO USUÁRIO) & LGPD:</summary>
+<p align="center">
+ <img src="https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/TELA12-MEUS-DADOS-PRIVACIDADE-2.jpeg?raw=true"MEUS-DADOS"">               
+ <h4 align="center">(Poder ao usuário e recompensas pelos seus dados)</h4>
+</p>
+</details>
 
 # II - TECNOLOGIAS ADOTADAS NA SOLUÇÃO 
 
 :wrench:  **Banco de Dados** ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white).
 
 :orange_circle: **MODELO-RELACIONAL DO BANCO DE DADOS**
-
-<p align="center">
-<img src="https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/MODELO-RELACIONAL-VALSCORE.jpg">
- </p>
  
+<details><summary> (Clique aqui)</summary>
+<p align="center">
+ <img src="https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/MODELO-RELACIONAL-VALSCORE.jpg">               
+</p>
+</details>
 
+                                                                                                          
 :orange_circle: **DIAGRAMA DE CLASSES DO BANCO DE DADOS**
-
+                                                                                                           
+<details><summary> (Clique aqui)</summary>
 <p align="center">
 <img src="https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/DIAGRAMA-DE-CLASSES-VALSCORE.jpg">
  </p>
- 
+ </details>
 
 :wrench:  linguagem: ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 
 :wrench:  ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) *framework* ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ou plataforma (há divergêcias conceituais) para aplicações web (*front-end*) baseado em TypeScript.
-
+                                                                                                            
+<details><summary> Front End.</summary>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141664849-ddac0cb9-7e06-4526-8e5a-562b2aee8463.PNG">
  </p>
- 
+ </details>
 
 :wrench:  ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)  Linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) é uma das três principais tecnologias da World Wide Web. Usamos o ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) para aprimorar nossa aplicação web com foco nos cálculos, e estilização dos CARDS e DASHBOARD;
 
@@ -167,29 +228,50 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 
  ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) **PRIVACIDADE E TRATAMENTO DE ERROS (LOGIN, ENVIO DA REQUISIÇÃO: ***session storage***)**
 
+<details><summary> (Clique aqui)</summary>
 <p align="center">
 <img src="https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/PRIVACIDADE%2BTRATAMENTO-ERROS-01.jpeg">
  </p>
-
+</details>
+                                                                                                                                    
  ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)  **PRIVACIDADE E TRATAMENTO DE ERROS (RESPOSTA À REQUISIÇÃO: ***session storage***)**
 
+<details><summary> (Clique aqui)</summary>
 <p align="center">
 <img src="https://github.com/ODAGAMMXIX/2020.2-SPC-CAD-POSITIVO/blob/master/201129-SPRINT-03/PRIVACIDADE%2BTRATAMENTO-ERROS-02.jpeg">
  </p>
-
+</details>
+                                                                                                                                    
+                                                                                                                                    
 :wrench:  ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)  *open source framework Java*.
 
 :orange_circle: **CÓDIGO: CONSULTA E ALTERA NO BANCO DE DADOS**
-![Consulta-Altera](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/CONSULTA-ALTERA-DADOS.jpeg?raw=true"Consulta-Altera")
+                                                                                                                                        
+<details><summary> (Clique aqui)</summary>
+<p align="center">
+<img src="https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/CONSULTA-ALTERA-DADOS.jpeg?raw=true"Consulta-Altera"">
+ </p>
+</details>
 
 :orange_circle: **CÓDIGO: IMPORTA ARQUIVOS CSV, TRATA DADOS E INSERE NO BANCO DE DADOS**
-![Importa-CSVl](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/IMPORTA-ARQUIVO-CODIGO.jpeg?raw=true"Importa-CSV")
+                                                                                                                                
+<details><summary> (Clique aqui)</summary>
+<p align="center">
+<img src="https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/IMPORTA-ARQUIVO-CODIGO.jpeg?raw=true"Importa-CSV"">
+ </p>
+</details>
+
 
 :wrench:  ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)  API Client para teste de CRUD, compartilhamento e documentação de APIs.
 
 :wrench:  ![Insomnia](https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE)  idem.
 
-![image](https://user-images.githubusercontent.com/61089745/141985664-81df10dc-fd1d-44d1-b65f-06f8eb0ce5e4.png)
+<details><summary> Requisições.</summary>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/61089745/141985664-81df10dc-fd1d-44d1-b65f-06f8eb0ce5e4.png">
+ </p>
+</details>
+
 
 :orange_circle: **Data Grip:** IDE de banco de dados que detecta bugs no código e sugere correções.
 
@@ -200,10 +282,8 @@ Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o
 Estudamos e deixamos de implementar:
 
 :wrench:  ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)  *Machine Learning* através de **redes neurais**;
-
-![image](imgs/MicrosoftTeams-image4.png)
-
-
+                                                                                                                
+<img src="imgs/MicrosoftTeams-image4.png">
 
 # III - CONTRIBUIÇÕES INDIVIDUAS/PESSOAIS
 
@@ -240,9 +320,13 @@ Estudamos e deixamos de implementar:
 :small_blue_diamond: Fidelização, já que o desbancarizado poderá usufruir dos mesmos benefícios dos demais (exceto para créditos maiores).
 
 :axe::axe::axe: **criei uma proposta de Cálculo de Score pré-Machine Learning**
-![image](imgs/MicrosoftTeams-image.png)
 
-![image](imgs/MicrosoftTeams-image%20(1).png)
+<details><summary> (Clique aqui)</summary>
+<p align="center">
+<img src="imgs/MicrosoftTeams-image.png">
+<img src="imgs/MicrosoftTeams-image%20(1).png">
+ </p>
+</details>  
 
 
 :axe::axe::axe::axe: **Fui um dos DBA do projeto**, administrando o banco de dados ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white).
@@ -254,9 +338,13 @@ Além de revelar e incluir pessoas, a aplicação pode **viabilizar crédito par
 
 **Vide programa RodaViva com Cristina Junqueira, sócia-fundadora do nubank (https://www.youtube.com/watch?v=2vYX8B-Ro7M)**
 
-:heavy_check_mark: Constatei ser possível utilizar ferramentas de alto nível como o TensorFlow, utilizadas por empresas como:
+:heavy_check_mark: Constatei ser possível utilizar ferramentas de alto nível como o TensorFlow, utilizadas empresas expoentes.
 
-![image](imgs/MicrosoftTeams-image5.png)
+<details><summary> (Clique aqui)</summary>
+<p align="center">
+<img src="imgs/MicrosoftTeams-image5.png">
+ </p>
+</details>     
 
 :heavy_check_mark:![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 
