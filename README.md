@@ -30,7 +30,7 @@
 
 Empresa parceira SPC Brasil figurou como cliente.
 
-**OBJETIVO:** criar um aplicação capaz de atrair e manter  usuários cadastrados no programa *Cadastro Positivo*. Diferente do cadastro negativo, nessa modalidade, a empresa não vê apenas o que você deixou de pagar, mas o conjunto completo. Ou seja, ela vê tanto o que você pagou quanto o que você ainda não pagou. A partir da análise desses pagamentos, é calculado o seu *score* de crédito.
+**Desafio:** criar um aplicação capaz de atrair e manter  usuários cadastrados no programa *Cadastro Positivo*. Diferente do cadastro negativo, nessa modalidade, a empresa não vê apenas o que você deixou de pagar, mas o conjunto completo. Ou seja, ela vê tanto o que você pagou quanto o que você ainda não pagou. A partir da análise desses pagamentos, é calculado o seu *score* de crédito.
 
 Propusemos uma ferramenta com Monetização e Fidelização como atrativo para o usuário.
 
